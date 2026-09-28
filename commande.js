@@ -10,7 +10,7 @@
   // ces valeurs ne servent qu'en attendant sa réponse
   const heures = (...h) => h.map((x) => ({ id: `${String(x).padStart(2, "0")}:00`, label: `${x}h – ${x + 1}h` }));
   let CRENEAUX = { 1: heures(14, 15, 16), 5: heures(14, 15, 16), 6: heures(9, 10, 11, 14, 15, 16) };
-  let reserves = {}; // { "AAAA-MM-JJ": ["14:00", …] } créneaux déjà pris
+  let reserves = {}; // { "AAAA-MM-JJ": ["14:00", …] } créneaux complets
   const MOIS = ["janvier", "février", "mars", "avril", "mai", "juin", "juillet", "août", "septembre", "octobre", "novembre", "décembre"];
 
   const $ = (id) => document.getElementById(id);
