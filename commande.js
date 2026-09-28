@@ -6,12 +6,11 @@
   const CLE = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImlycXhrdWhra2RxYXdrc21ibGZsIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTA1MzYxMzksImV4cCI6MjEwNjExMjEzOX0.hac-A-7AF7ItL93x3qcn5TN_RdPbWMZnVVyFMbKa-kY";
   const STOCKAGE = "croc-panier-v1";
 
-  // Jours et créneaux de retrait (0 = dimanche … 6 = samedi) — identiques à la fonction serveur
-  const CRENEAUX = {
-    1: [{ id: "apres-midi", label: "14h – 17h30" }],
-    5: [{ id: "apres-midi", label: "14h – 17h30" }],
-    6: [{ id: "matin", label: "9h – 12h" }, { id: "apres-midi", label: "14h – 17h30" }],
-  };
+  // Créneaux de retrait d'une heure (0 = dimanche … 6 = samedi) : fournis par le serveur,
+  // ces valeurs ne servent qu'en attendant sa réponse
+  const heures = (...h) => h.map((x) => ({ id: `${String(x).padStart(2, "0")}:00`, label: `${x}h – ${x + 1}h` }));
+  let CRENEAUX = { 1: heures(14, 15, 16), 5: heures(14, 15, 16), 6: heures(9, 10, 11, 14, 15, 16) };
+  let reserves = {}; // { "AAAA-MM-JJ": ["14:00", …] } créneaux déjà pris
   const MOIS = ["janvier", "février", "mars", "avril", "mai", "juin", "juillet", "août", "septembre", "octobre", "novembre", "décembre"];
 
   const $ = (id) => document.getElementById(id);
@@ -168,6 +167,8 @@
       const d = await r.json();
       fermetures = d.fermetures || {};
       infos = d;
+      if (d.creneaux) CRENEAUX = d.creneaux;
+      reserves = d.reserves || {};
       preparerCalendrier();
     } catch {
       els.cal.innerHTML = `<p class="cal-loading">Impossible de charger les dates de retrait.
@@ -185,8 +186,10 @@
 
   function etatJour(s) {
     if (s < bornes.min || s > bornes.max) return { ok: false };
-    if (!CRENEAUX[depuisIso(s).getDay()]) return { ok: false };
+    const liste = CRENEAUX[depuisIso(s).getDay()];
+    if (!liste) return { ok: false };
     if (fermetures[s]) return { ok: false, ferme: fermetures[s] };
+    if (liste.every((c) => (reserves[s] || []).includes(c.id))) return { ok: false, complet: true };
     return { ok: true };
   }
 
@@ -204,10 +207,10 @@
       const s = iso(new Date(a, m, j));
       const e = etatJour(s);
       if (e.ok) ouverts++;
-      const cls = ["cal-day", e.ok ? "open" : "", e.ferme ? "closed" : "", s === choix.date ? "selected" : ""].join(" ");
+      const cls = ["cal-day", e.ok ? "open" : "", e.ferme ? "closed" : "", e.complet ? "full" : "", s === choix.date ? "selected" : ""].join(" ");
       cases += e.ok
         ? `<button type="button" class="${cls}" data-date="${s}" aria-pressed="${s === choix.date}" aria-label="${dateLongue(s)}">${j}</button>`
-        : `<span class="${cls}" ${e.ferme ? `title="Fermé : ${esc(e.ferme)}"` : ""} aria-hidden="true">${j}</span>`;
+        : `<span class="${cls}" ${e.ferme ? `title="Fermé : ${esc(e.ferme)}"` : e.complet ? 'title="Complet"' : ""} aria-hidden="true">${j}</span>`;
     }
     els.cal.innerHTML = `
       <div class="cal-head">
@@ -220,7 +223,7 @@
         ${cases}
       </div>
       ${ouverts ? "" : `<p class="cal-empty">Aucun jour de retrait disponible ce mois-ci.${suivantOk ? ' <button type="button" class="link-btn" data-nav="1">Voir le mois suivant →</button>' : ""}</p>`}
-      <p class="cal-legend"><span class="dot open"></span> jour de retrait <span class="dot closed"></span> fermé (foire…)</p>`;
+      <p class="cal-legend"><span class="dot open"></span> jour de retrait <span class="dot closed"></span> fermé (foire…) <span class="dot full"></span> complet</p>`;
   }
 
   els.cal.addEventListener("click", (e) => {
@@ -228,8 +231,7 @@
     if (nav) { moisAffiche = new Date(moisAffiche.getFullYear(), moisAffiche.getMonth() + Number(nav.dataset.nav), 1); dessinerCalendrier(); return; }
     const j = e.target.closest("[data-date]");
     if (!j) return;
-    const liste = CRENEAUX[depuisIso(j.dataset.date).getDay()];
-    choix = { date: j.dataset.date, creneau: liste.length === 1 ? liste[0].id : null };
+    choix = { date: j.dataset.date, creneau: null };
     dessinerCalendrier();
     dessinerCreneaux();
   });
@@ -238,8 +240,9 @@
     if (!choix.date) { els.creneaux.innerHTML = ""; els.choix.hidden = true; return; }
     const liste = CRENEAUX[depuisIso(choix.date).getDay()];
     els.creneaux.innerHTML = `<p class="field-label">Créneau le ${dateLongue(choix.date)}</p>
-      <div class="slot-list">${liste.map((c) => `
-        <button type="button" class="slot" data-slot="${c.id}" aria-pressed="${choix.creneau === c.id}">${c.id === "matin" ? "Matin" : "Après-midi"} · ${c.label}</button>`).join("")}
+      <div class="slot-list">${liste.map((c) => (reserves[choix.date] || []).includes(c.id)
+        ? `<button type="button" class="slot taken" disabled>${c.label}<small>Réservé</small></button>`
+        : `<button type="button" class="slot" data-slot="${c.id}" aria-pressed="${choix.creneau === c.id}">${c.label}</button>`).join("")}
       </div>`;
     const cr = liste.find((c) => c.id === choix.creneau);
     els.choix.hidden = !cr;
