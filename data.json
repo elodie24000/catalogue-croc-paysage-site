@@ -1,9 +1,65 @@
 [
   {
+    "nom": "Agastache anisée",
+    "latin": "Agastache foeniculum",
+    "categorie": "Fleurs",
+    "categorie_detail": "Fleurs vivaces mellifères",
+    "rubriques": [
+      "Ornemental / mellifère",
+      "Aromatique / condimentaire"
+    ],
+    "variants": [
+      {
+        "format": "2 L",
+        "prix": 8.0,
+        "stock": 30
+      }
+    ],
+    "prix_min": 8.0,
+    "stock_total": 30,
+    "hauteur": "90 cm",
+    "rusticite": "-20°C",
+    "rusticite_val": -20,
+    "exposition": "Soleil",
+    "terrain": "Sol drainant",
+    "feuillage": "Caduc (vivace)",
+    "origine": "Amérique du Nord",
+    "images": [],
+    "fiche_url": null
+  },
+  {
+    "nom": "Agripaume, léonure",
+    "latin": "Leonurus cardiaca",
+    "categorie": "Fleurs",
+    "categorie_detail": "Fleurs vivaces mellifères",
+    "rubriques": [
+      "Ornemental / mellifère"
+    ],
+    "variants": [
+      {
+        "format": "2 L",
+        "prix": 8.0,
+        "stock": 20
+      }
+    ],
+    "prix_min": 8.0,
+    "stock_total": 20,
+    "hauteur": "1 m",
+    "rusticite": "-25°C",
+    "rusticite_val": -25,
+    "exposition": "Soleil, mi-ombre",
+    "terrain": "Tout type de sol",
+    "feuillage": "Caduc (vivace)",
+    "origine": "Europe, Asie",
+    "images": [],
+    "fiche_url": null
+  },
+  {
     "nom": "Ail des vignes",
     "latin": "Allium polyanthum",
     "categorie": "Légume vivace",
     "categorie_detail": "Légumes vivaces",
+    "rubriques": [],
     "variants": [
       {
         "format": "3 plants adultes",
@@ -33,6 +89,7 @@
     "latin": "Allium ampeloprasum",
     "categorie": "Légume vivace",
     "categorie_detail": "Légumes vivaces",
+    "rubriques": [],
     "variants": [
       {
         "format": "0.5L (1 caïeux)",
@@ -64,6 +121,7 @@
     "latin": "Akebia quinata alba",
     "categorie": "Liane fruitière",
     "categorie_detail": "Lianes fruitières",
+    "rubriques": [],
     "variants": [
       {
         "format": "5 L",
@@ -92,6 +150,7 @@
     "latin": "Amélanchier canadensis",
     "categorie": "Fruitier",
     "categorie_detail": "Arbres fruitiers et à baies; Arbres mellifères",
+    "rubriques": [],
     "variants": [
       {
         "format": "3L",
@@ -130,6 +189,7 @@
     "latin": "Leycesteria formosa 'purple rain'",
     "categorie": "Fruitier",
     "categorie_detail": "Arbres fruitiers et à baies",
+    "rubriques": [],
     "variants": [
       {
         "format": "1L",
@@ -163,6 +223,7 @@
     "latin": "Tetradium Daniellii (Euodia)",
     "categorie": "Ornemental / mellifère",
     "categorie_detail": "Arbres mellifères",
+    "rubriques": [],
     "variants": [
       {
         "format": "3L",
@@ -201,6 +262,7 @@
     "latin": "Toona sinensis",
     "categorie": "Aromatique / condimentaire",
     "categorie_detail": "Arbres à vertus culinaires",
+    "rubriques": [],
     "variants": [
       {
         "format": "Pot 3 L",
@@ -239,6 +301,7 @@
     "latin": "Aronia prunifolia melanocarpa",
     "categorie": "Fruitier",
     "categorie_detail": "Arbustes fruitiers",
+    "rubriques": [],
     "variants": [
       {
         "format": "3L",
@@ -272,6 +335,7 @@
     "latin": "Asimina triloba",
     "categorie": "Fruitier",
     "categorie_detail": "Arbustes fruitiers",
+    "rubriques": [],
     "variants": [
       {
         "format": "6L",
@@ -300,6 +364,7 @@
     "latin": "Asimina triloba",
     "categorie": "Fruitier",
     "categorie_detail": "Arbres fruitiers et à baies",
+    "rubriques": [],
     "variants": [
       {
         "format": "Pot 1,5L",
@@ -333,6 +398,7 @@
     "latin": "Asimina triloba 'Prima'",
     "categorie": "Fruitier",
     "categorie_detail": "Arbustes fruitiers",
+    "rubriques": [],
     "variants": [
       {
         "format": "6L",
@@ -360,6 +426,7 @@
     "latin": "Asimina triloba 'Wabash'",
     "categorie": "Fruitier",
     "categorie_detail": "Arbustes fruitiers",
+    "rubriques": [],
     "variants": [
       {
         "format": "6L",
@@ -387,6 +454,7 @@
     "latin": "Lycium barbarum",
     "categorie": "Fruitier",
     "categorie_detail": "Arbustes fruitiers",
+    "rubriques": [],
     "variants": [
       {
         "format": "1,5L",
@@ -420,6 +488,7 @@
     "latin": "Lycium ruthenicum",
     "categorie": "Fruitier",
     "categorie_detail": "Arbustes fruitiers",
+    "rubriques": [],
     "variants": [
       {
         "format": "1,5L",
@@ -444,6 +513,7 @@
     "latin": "Lonicera caerulea 'Borealis'",
     "categorie": "Fruitier",
     "categorie_detail": "Arbustes fruitiers",
+    "rubriques": [],
     "variants": [
       {
         "format": "1,5L",
@@ -473,6 +543,7 @@
     "latin": "Lonicera kamtschatica 'Kiev'",
     "categorie": "Fruitier",
     "categorie_detail": "Arbustes fruitiers",
+    "rubriques": [],
     "variants": [
       {
         "format": "1,5L",
@@ -510,6 +581,7 @@
     "latin": "Caragana arborescens",
     "categorie": "Fruitier",
     "categorie_detail": "Arbres comestibles; arbres mellifères",
+    "rubriques": [],
     "variants": [
       {
         "format": "5L",
@@ -543,6 +615,7 @@
     "latin": "Eleagnus x ebbingei",
     "categorie": "Fruitier",
     "categorie_detail": "Arbustes fruitiers",
+    "rubriques": [],
     "variants": [
       {
         "format": "3L",
@@ -576,6 +649,7 @@
     "latin": "Sechium edule",
     "categorie": "Légume vivace",
     "categorie_detail": "Légumes vivaces",
+    "rubriques": [],
     "variants": [
       {
         "format": "2L",
@@ -602,6 +676,7 @@
     "latin": "Brassica oleracea 'Ramosa' Daubenton",
     "categorie": "Légume vivace",
     "categorie_detail": "Légumes vivaces",
+    "rubriques": [],
     "variants": [
       {
         "format": "0.5L",
@@ -633,6 +708,7 @@
     "latin": "Allium tuberosum",
     "categorie": "Légume vivace",
     "categorie_detail": "Légumes vivaces",
+    "rubriques": [],
     "variants": [
       {
         "format": "0.5L",
@@ -657,6 +733,7 @@
     "latin": "Cymbopogon citratus",
     "categorie": "Légume vivace",
     "categorie_detail": "Légumes vivaces",
+    "rubriques": [],
     "variants": [
       {
         "format": "1L",
@@ -683,6 +760,7 @@
     "latin": "Citrus Fortunella meiwa",
     "categorie": "Agrume",
     "categorie_detail": "Agrumes",
+    "rubriques": [],
     "variants": [
       {
         "format": "3L",
@@ -719,6 +797,7 @@
     "latin": "Symphytum officinale",
     "categorie": "Légume vivace",
     "categorie_detail": "Légumes vivaces",
+    "rubriques": [],
     "variants": [
       {
         "format": "3L",
@@ -751,6 +830,7 @@
     "latin": "Persicaria odorata",
     "categorie": "Légume vivace",
     "categorie_detail": "Légumes vivaces",
+    "rubriques": [],
     "variants": [
       {
         "format": "0.5 L",
@@ -777,6 +857,7 @@
     "latin": "Cotoneaster lacteus",
     "categorie": "Ornemental / mellifère",
     "categorie_detail": "Arbres mellifères",
+    "rubriques": [],
     "variants": [
       {
         "format": "3L",
@@ -801,6 +882,7 @@
     "latin": "Stachys affinis tuberosa",
     "categorie": "Légume vivace",
     "categorie_detail": "Légumes vivaces",
+    "rubriques": [],
     "variants": [
       {
         "format": "10 tubercules",
@@ -835,6 +917,7 @@
     "latin": "Levisticum officinale",
     "categorie": "Légume vivace",
     "categorie_detail": "Légumes vivaces",
+    "rubriques": [],
     "variants": [
       {
         "format": "0.5L",
@@ -861,6 +944,7 @@
     "latin": "Feijoa sellowiana",
     "categorie": "Fruitier",
     "categorie_detail": "Arbres fruitiers et à baies",
+    "rubriques": [],
     "variants": [
       {
         "format": "3L, 1m",
@@ -899,6 +983,7 @@
     "latin": "Ficus \"noire de Caromb\"",
     "categorie": "Fruitier",
     "categorie_detail": "Arbres fruitiers et à baies",
+    "rubriques": [],
     "variants": [
       {
         "format": "3L",
@@ -927,6 +1012,7 @@
     "latin": "Ficus Del Portogalo",
     "categorie": "Fruitier",
     "categorie_detail": "Arbres fruitiers et à baies",
+    "rubriques": [],
     "variants": [
       {
         "format": "3L",
@@ -953,6 +1039,7 @@
     "latin": "Ficus carica",
     "categorie": "Fruitier",
     "categorie_detail": "Arbres fruitiers et à baies",
+    "rubriques": [],
     "variants": [
       {
         "format": "3 L",
@@ -980,6 +1067,7 @@
     "latin": "Fuchsia regia ssp. reitzii",
     "categorie": "Fruitier",
     "categorie_detail": "Arbustes fruitiers",
+    "rubriques": [],
     "variants": [
       {
         "format": "3L",
@@ -1008,6 +1096,7 @@
     "latin": "Vitex agnus castus",
     "categorie": "Ornemental / mellifère",
     "categorie_detail": "Arbres mellifères",
+    "rubriques": [],
     "variants": [
       {
         "format": "3 L",
@@ -1039,6 +1128,7 @@
     "latin": "Ginkgo biloba",
     "categorie": "Ornemental / mellifère",
     "categorie_detail": "Arbres thérapeutiques",
+    "rubriques": [],
     "variants": [
       {
         "format": "3 L",
@@ -1076,6 +1166,7 @@
     "latin": "Apios americana",
     "categorie": "Légume vivace",
     "categorie_detail": "Légumes vivaces",
+    "rubriques": [],
     "variants": [
       {
         "format": "0.5L",
@@ -1108,6 +1199,7 @@
     "latin": "Punica granatum 'Nana'",
     "categorie": "Fruitier",
     "categorie_detail": "Arbres fruitiers et à baies; Arbres mellifères",
+    "rubriques": [],
     "variants": [
       {
         "format": "2L",
@@ -1128,10 +1220,39 @@
     "fiche_url": "https://crocpaysage.com/products/grenadier-nain"
   },
   {
+    "nom": "Hysope officinale",
+    "latin": "Hyssopus officinalis",
+    "categorie": "Fleurs",
+    "categorie_detail": "Fleurs vivaces mellifères",
+    "rubriques": [
+      "Ornemental / mellifère",
+      "Aromatique / condimentaire"
+    ],
+    "variants": [
+      {
+        "format": "2 L",
+        "prix": 8.0,
+        "stock": 4
+      }
+    ],
+    "prix_min": 8.0,
+    "stock_total": 4,
+    "hauteur": "50 cm",
+    "rusticite": "-20°C",
+    "rusticite_val": -20,
+    "exposition": "Soleil",
+    "terrain": "Sol drainant, calcaire",
+    "feuillage": "Semi-persistant",
+    "origine": "Europe du Sud",
+    "images": [],
+    "fiche_url": null
+  },
+  {
     "nom": "Hélianthi",
     "latin": "Helianthus strumosus",
     "categorie": "Légume vivace",
     "categorie_detail": "Légumes vivaces",
+    "rubriques": [],
     "variants": [
       {
         "format": "3 tubercules",
@@ -1163,6 +1284,7 @@
     "latin": "Ziziphus géant de Albatera",
     "categorie": "Fruitier",
     "categorie_detail": "Arbres fruitiers et à baies; Arbres mellifères",
+    "rubriques": [],
     "variants": [
       {
         "format": "5L",
@@ -1191,6 +1313,7 @@
     "latin": "Ziziphus jujuba",
     "categorie": "Fruitier",
     "categorie_detail": "Arbres fruitiers et à baies",
+    "rubriques": [],
     "variants": [
       {
         "format": "3 L",
@@ -1224,6 +1347,7 @@
     "latin": "Actinidia arguta ananasnaya",
     "categorie": "Liane fruitière",
     "categorie_detail": "Lianes fruitières",
+    "rubriques": [],
     "variants": [
       {
         "format": "2L",
@@ -1255,6 +1379,7 @@
     "latin": "Actinidia arguta ken's red",
     "categorie": "Liane fruitière",
     "categorie_detail": "Lianes fruitières",
+    "rubriques": [],
     "variants": [
       {
         "format": "2L",
@@ -1288,6 +1413,7 @@
     "latin": "Actinidia arguta Weiki",
     "categorie": "Liane fruitière",
     "categorie_detail": "Lianes fruitières",
+    "rubriques": [],
     "variants": [
       {
         "format": "2L",
@@ -1320,6 +1446,7 @@
     "latin": "Actinidia deliciosa solo",
     "categorie": "Liane fruitière",
     "categorie_detail": "Lianes fruitières",
+    "rubriques": [],
     "variants": [
       {
         "format": "3L",
@@ -1353,6 +1480,7 @@
     "latin": "Sassafras albidum",
     "categorie": "Ornemental / mellifère",
     "categorie_detail": "Arbres thérapeutiques",
+    "rubriques": [],
     "variants": [
       {
         "format": "3 L",
@@ -1381,6 +1509,7 @@
     "latin": "Citrus unshiu 'Iwasaki'",
     "categorie": "Agrume",
     "categorie_detail": "Agrumes",
+    "rubriques": [],
     "variants": [
       {
         "format": "6L",
@@ -1412,6 +1541,7 @@
     "latin": "Citrus unshiu",
     "categorie": "Agrume",
     "categorie_detail": "Agrumes",
+    "rubriques": [],
     "variants": [
       {
         "format": "6L",
@@ -1443,6 +1573,7 @@
     "latin": "Citrus unshiu",
     "categorie": "Agrume",
     "categorie_detail": "Agrumes",
+    "rubriques": [],
     "variants": [
       {
         "format": "6L",
@@ -1474,6 +1605,7 @@
     "latin": "Miscanthus x giganteus",
     "categorie": "Ornemental / mellifère",
     "categorie_detail": "Arbres à biomasse",
+    "rubriques": [],
     "variants": [
       {
         "format": "3 éclats",
@@ -1508,10 +1640,39 @@
     "fiche_url": "https://crocpaysage.com/products/miscanthus-geant"
   },
   {
+    "nom": "Monarde pourpre",
+    "latin": "Monarda didyma",
+    "categorie": "Fleurs",
+    "categorie_detail": "Fleurs vivaces mellifères",
+    "rubriques": [
+      "Ornemental / mellifère",
+      "Aromatique / condimentaire"
+    ],
+    "variants": [
+      {
+        "format": "1,5 L",
+        "prix": 8.0,
+        "stock": 20
+      }
+    ],
+    "prix_min": 8.0,
+    "stock_total": 20,
+    "hauteur": "90 cm",
+    "rusticite": "-25°C",
+    "rusticite_val": -25,
+    "exposition": "Soleil, mi-ombre",
+    "terrain": "Sol frais et riche",
+    "feuillage": "Caduc (vivace)",
+    "origine": "Amérique du Nord",
+    "images": [],
+    "fiche_url": null
+  },
+  {
     "nom": "Mûrier blanc",
     "latin": "Morus alba",
     "categorie": "Fruitier",
     "categorie_detail": "Arbres fruitiers et à baies",
+    "rubriques": [],
     "variants": [
       {
         "format": "Racines nues (2 ans, 1.60 m)",
@@ -1540,6 +1701,7 @@
     "latin": "Rubus fruticosus «Black Satin»",
     "categorie": "Fruitier",
     "categorie_detail": "Arbustes fruitiers",
+    "rubriques": [],
     "variants": [
       {
         "format": "1.5 L",
@@ -1569,10 +1731,38 @@
     "fiche_url": "https://crocpaysage.com/products/murier-sans-epines-black-satin"
   },
   {
+    "nom": "Népéta, herbe aux chats",
+    "latin": "Nepeta cataria",
+    "categorie": "Fleurs",
+    "categorie_detail": "Fleurs vivaces mellifères",
+    "rubriques": [
+      "Ornemental / mellifère"
+    ],
+    "variants": [
+      {
+        "format": "2 L",
+        "prix": 8.0,
+        "stock": 20
+      }
+    ],
+    "prix_min": 8.0,
+    "stock_total": 20,
+    "hauteur": "80 cm",
+    "rusticite": "-25°C",
+    "rusticite_val": -25,
+    "exposition": "Soleil",
+    "terrain": "Sol drainant, même pauvre",
+    "feuillage": "Caduc (vivace)",
+    "origine": "Europe, Asie occidentale",
+    "images": [],
+    "fiche_url": null
+  },
+  {
     "nom": "Ocas du Pérou",
     "latin": "Oxalis tuberosa",
     "categorie": "Légume vivace",
     "categorie_detail": "Légumes vivaces",
+    "rubriques": [],
     "variants": [
       {
         "format": "1L",
@@ -1599,6 +1789,7 @@
     "latin": "Allium cepa aggregatum",
     "categorie": "Légume vivace",
     "categorie_detail": "Légumes vivaces",
+    "rubriques": [],
     "variants": [
       {
         "format": "3 bulbilles",
@@ -1628,6 +1819,7 @@
     "latin": "Allium cepa proliferum",
     "categorie": "Légume vivace",
     "categorie_detail": "Légumes vivaces",
+    "rubriques": [],
     "variants": [
       {
         "format": "1 bulbille",
@@ -1659,6 +1851,7 @@
     "latin": "Eléagnus angustifolia orientalis",
     "categorie": "Fruitier",
     "categorie_detail": "Arbres fruitiers et à baies; Arbres mellifères",
+    "rubriques": [],
     "variants": [
       {
         "format": "3L",
@@ -1688,6 +1881,7 @@
     "latin": "Citrus sinensis 'Cara Cara'",
     "categorie": "Agrume",
     "categorie_detail": "Agrumes",
+    "rubriques": [],
     "variants": [
       {
         "format": "6L",
@@ -1719,6 +1913,7 @@
     "latin": "Citrus sinensis 'Navel Chocolate'",
     "categorie": "Agrume",
     "categorie_detail": "Agrumes",
+    "rubriques": [],
     "variants": [
       {
         "format": "6L",
@@ -1750,6 +1945,7 @@
     "latin": "Citrus sinensis 'Navelina'",
     "categorie": "Agrume",
     "categorie_detail": "Agrumes",
+    "rubriques": [],
     "variants": [
       {
         "format": "6L",
@@ -1781,6 +1977,7 @@
     "latin": "Paulownia tomentosa",
     "categorie": "Ornemental / mellifère",
     "categorie_detail": "Arbres mellifères",
+    "rubriques": [],
     "variants": [
       {
         "format": "3L",
@@ -1809,6 +2006,7 @@
     "latin": "Cryptotaenia japonica",
     "categorie": "Légume vivace",
     "categorie_detail": "Légumes vivaces",
+    "rubriques": [],
     "variants": [
       {
         "format": "0.5L",
@@ -1833,6 +2031,7 @@
     "latin": "Pinus pinea",
     "categorie": "Aromatique / condimentaire",
     "categorie_detail": "Arbres à vertus culinaires",
+    "rubriques": [],
     "variants": [
       {
         "format": "3 L (3 ans)",
@@ -1866,6 +2065,7 @@
     "latin": "Smallanthus sonchifolius",
     "categorie": "Légume vivace",
     "categorie_detail": "Légumes vivaces",
+    "rubriques": [],
     "variants": [
       {
         "format": "1L",
@@ -1892,6 +2092,7 @@
     "latin": "Allium ampeloprasum",
     "categorie": "Légume vivace",
     "categorie_detail": "Légumes vivaces",
+    "rubriques": [],
     "variants": [
       {
         "format": "0.7L",
@@ -1918,6 +2119,7 @@
     "latin": "Zanthoxylum coreanum",
     "categorie": "Fruitier",
     "categorie_detail": "Arbres fruitiers et à baies; Arbres mellifères",
+    "rubriques": [],
     "variants": [
       {
         "format": "3L",
@@ -1942,6 +2144,7 @@
     "latin": "Zanthoxylum schinifolium",
     "categorie": "Fruitier",
     "categorie_detail": "Arbres fruitiers et à baies; Arbres mellifères",
+    "rubriques": [],
     "variants": [
       {
         "format": "3L",
@@ -1966,6 +2169,7 @@
     "latin": "Zanthoxylum armatum",
     "categorie": "Fruitier",
     "categorie_detail": "Arbres fruitiers et à baies; Arbres mellifères",
+    "rubriques": [],
     "variants": [
       {
         "format": "3L",
@@ -1990,6 +2194,7 @@
     "latin": "Zanthoxylum piperitum",
     "categorie": "Aromatique / condimentaire",
     "categorie_detail": "Arbres à vertus culinaires",
+    "rubriques": [],
     "variants": [
       {
         "format": "3L",
@@ -2027,6 +2232,7 @@
     "latin": "Prunus tomentosa",
     "categorie": "Fruitier",
     "categorie_detail": "Arbustes fruitiers",
+    "rubriques": [],
     "variants": [
       {
         "format": "1L",
@@ -2060,6 +2266,7 @@
     "latin": "Styphnolobium japonicum",
     "categorie": "Ornemental / mellifère",
     "categorie_detail": "Arbres mellifères",
+    "rubriques": [],
     "variants": [
       {
         "format": "3L",
@@ -2093,6 +2300,7 @@
     "latin": "Sorbus Burka x sorbaronia fallax Burka",
     "categorie": "Fruitier",
     "categorie_detail": "Arbres fruitiers et à baies",
+    "rubriques": [],
     "variants": [
       {
         "format": "5L",
@@ -2121,6 +2329,7 @@
     "latin": "Colocasia esculenta",
     "categorie": "Légume vivace",
     "categorie_detail": "Légumes vivaces",
+    "rubriques": [],
     "variants": [
       {
         "format": "2L",
@@ -2145,6 +2354,7 @@
     "latin": "Gynostemma pentaphyllum",
     "categorie": "Légume vivace",
     "categorie_detail": "Légumes vivaces",
+    "rubriques": [],
     "variants": [
       {
         "format": "2L",
@@ -2165,10 +2375,38 @@
     "fiche_url": "https://crocpaysage.com/products/the-de-limmortalite"
   },
   {
+    "nom": "Verveine de Buenos Aires",
+    "latin": "Verbena bonariensis",
+    "categorie": "Fleurs",
+    "categorie_detail": "Fleurs vivaces mellifères",
+    "rubriques": [
+      "Ornemental / mellifère"
+    ],
+    "variants": [
+      {
+        "format": "2 L",
+        "prix": 8.0,
+        "stock": 10
+      }
+    ],
+    "prix_min": 8.0,
+    "stock_total": 10,
+    "hauteur": "1,5 m",
+    "rusticite": "-10°C",
+    "rusticite_val": -10,
+    "exposition": "Soleil",
+    "terrain": "Sol drainant",
+    "feuillage": "Caduc (se ressème facilement)",
+    "origine": "Amérique du Sud",
+    "images": [],
+    "fiche_url": null
+  },
+  {
     "nom": "Xanthoceras à feuilles de sorbier",
     "latin": "Xanthoceras sorbifolium",
     "categorie": "Fruitier",
     "categorie_detail": "Arbres fruitiers et à baies; Arbres mellifères",
+    "rubriques": [],
     "variants": [
       {
         "format": "2L",
@@ -2197,5 +2435,32 @@
     "origine": "Asie",
     "images": [],
     "fiche_url": "https://crocpaysage.com/products/xanthoceras-a-feuilles-de-sorbier"
+  },
+  {
+    "nom": "Échinacée 'Clementine'",
+    "latin": "Echinacea 'Clementine'",
+    "categorie": "Fleurs",
+    "categorie_detail": "Fleurs vivaces mellifères",
+    "rubriques": [
+      "Ornemental / mellifère"
+    ],
+    "variants": [
+      {
+        "format": "2 L",
+        "prix": 8.0,
+        "stock": 10
+      }
+    ],
+    "prix_min": 8.0,
+    "stock_total": 10,
+    "hauteur": "60 cm",
+    "rusticite": "-25°C",
+    "rusticite_val": -25,
+    "exposition": "Soleil",
+    "terrain": "Sol drainant, même sec",
+    "feuillage": "Caduc (vivace)",
+    "origine": "Amérique du Nord (hybride horticole)",
+    "images": [],
+    "fiche_url": null
   }
 ]

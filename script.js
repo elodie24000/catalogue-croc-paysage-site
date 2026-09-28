@@ -7,6 +7,7 @@
     "Liane fruitière": "#7a6a1c",
     "Ornemental / mellifère": "#8a4516",
     "Aromatique / condimentaire": "#3f6b4a",
+    "Fleurs": "#b0466e",
   };
   const catColor = (c) => CAT_COLORS[c] || "#6b7928";
 
@@ -41,9 +42,12 @@
     });
 
 
+  const categoriesDe = (p) => [p.categorie, ...(p.rubriques || [])];
+
   function buildChips() {
     const counts = {};
-    plants.forEach((p) => { counts[p.categorie] = (counts[p.categorie] || 0) + 1; });
+    // Une plante compte dans sa catégorie et dans ses rubriques (ex. fleur mellifère et aromatique)
+    plants.forEach((p) => categoriesDe(p).forEach((c) => { counts[c] = (counts[c] || 0) + 1; }));
     const cats = Object.keys(counts).sort((a, b) => counts[b] - counts[a]);
     const chip = (value, label, n) => `
       <button type="button" class="chip" data-cat="${esc(value)}" aria-pressed="${value === currentCat}"
@@ -89,7 +93,7 @@
       return h != null && h > hMin && h <= hMax;
     };
     const list = plants.filter((p) =>
-      (!currentCat || p.categorie === currentCat) &&
+      (!currentCat || categoriesDe(p).includes(currentCat)) &&
       (!q || norm(p.nom).includes(q) || norm(p.latin).includes(q)) &&
       (rust === null || (p.rusticite_val != null && p.rusticite_val <= rust)) &&
       hauteurOk(p) &&
