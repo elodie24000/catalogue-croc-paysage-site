@@ -153,7 +153,8 @@
       info.hidden = true;
     }
     if (choix.date && (choix.date < bornes.min || choix.date > bornes.max)) { choix = { date: null, creneau: null }; dessinerCreneaux(); }
-    const debut = depuisIso(choix.date || bornes.min);
+    // On ouvre le calendrier sur le mois du premier jour de retrait possible (et non sur un mois vide)
+    const debut = depuisIso(choix.date || premierJourOuvert() || bornes.min);
     moisAffiche = new Date(debut.getFullYear(), debut.getMonth(), 1);
     dessinerCalendrier();
   }
@@ -175,6 +176,13 @@
     }
   }
 
+  function premierJourOuvert() {
+    for (let d = depuisIso(bornes.min); iso(d) <= bornes.max; d.setDate(d.getDate() + 1)) {
+      if (etatJour(iso(d)).ok) return iso(d);
+    }
+    return null;
+  }
+
   function etatJour(s) {
     if (s < bornes.min || s > bornes.max) return { ok: false };
     if (!CRENEAUX[depuisIso(s).getDay()]) return { ok: false };
@@ -190,10 +198,12 @@
     const precedentOk = iso(new Date(a, m, 0)) >= bornes.min;
     const suivantOk = iso(new Date(a, m + 1, 1)) <= bornes.max;
     let cases = "";
+    let ouverts = 0;
     for (let i = 0; i < decalage; i++) cases += '<span class="cal-day empty"></span>';
     for (let j = 1; j <= nbJours; j++) {
       const s = iso(new Date(a, m, j));
       const e = etatJour(s);
+      if (e.ok) ouverts++;
       const cls = ["cal-day", e.ok ? "open" : "", e.ferme ? "closed" : "", s === choix.date ? "selected" : ""].join(" ");
       cases += e.ok
         ? `<button type="button" class="${cls}" data-date="${s}" aria-pressed="${s === choix.date}" aria-label="${dateLongue(s)}">${j}</button>`
@@ -209,6 +219,7 @@
         ${["lu", "ma", "me", "je", "ve", "sa", "di"].map((d) => `<span class="cal-dow">${d}</span>`).join("")}
         ${cases}
       </div>
+      ${ouverts ? "" : `<p class="cal-empty">Aucun jour de retrait disponible ce mois-ci.${suivantOk ? ' <button type="button" class="link-btn" data-nav="1">Voir le mois suivant →</button>' : ""}</p>`}
       <p class="cal-legend"><span class="dot open"></span> jour de retrait <span class="dot closed"></span> fermé (foire…)</p>`;
   }
 

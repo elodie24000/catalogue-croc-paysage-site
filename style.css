@@ -1009,3 +1009,5 @@ button.cal-day.selected { background: var(--olive); border-color: var(--olive); 
   line-height: 1.45;
 }
 .checkout-root-info[hidden] { display: none; }
+
+.cal-empty { margin: 10px 2px 0; padding: 9px 12px; border-radius: 10px; background: var(--gold-soft); color: var(--olive-dark); font-size: .86rem; }
