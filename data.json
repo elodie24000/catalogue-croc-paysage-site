@@ -5,7 +5,7 @@
     "categorie": "Fleurs",
     "categorie_detail": "Fleurs vivaces mellifères",
     "rubriques": [
-      "Ornemental / mellifère",
+      "Mellifère",
       "Aromatique / condimentaire"
     ],
     "variants": [
@@ -33,7 +33,7 @@
     "categorie": "Fleurs",
     "categorie_detail": "Fleurs vivaces mellifères",
     "rubriques": [
-      "Ornemental / mellifère"
+      "Mellifère"
     ],
     "variants": [
       {
@@ -185,6 +185,31 @@
     "fiche_url": "https://crocpaysage.com/products/amelanchier"
   },
   {
+    "nom": "Arbre au caramel, katsura",
+    "latin": "Cercidiphyllum japonicum",
+    "categorie": "Ornemental",
+    "categorie_detail": "Arbres ornementaux",
+    "rubriques": [],
+    "variants": [
+      {
+        "format": "20 L, 1,60 m",
+        "prix": 55.0,
+        "stock": 3
+      }
+    ],
+    "prix_min": 55.0,
+    "stock_total": 3,
+    "hauteur": "8-12 m",
+    "rusticite": "-25°C",
+    "rusticite_val": -25,
+    "exposition": "Soleil, mi-ombre",
+    "terrain": "Frais, humifère, plutôt acide à neutre",
+    "feuillage": "Caduc, couleurs d'automne au parfum de caramel",
+    "origine": "Japon, Chine",
+    "images": [],
+    "fiche_url": null
+  },
+  {
     "nom": "Arbre aux faisans pourpres, chèvrefeuille de l'Himalaya",
     "latin": "Leycesteria formosa 'purple rain'",
     "categorie": "Fruitier",
@@ -221,7 +246,7 @@
   {
     "nom": "Arbre à miel, Tetradium Daniellii",
     "latin": "Tetradium Daniellii (Euodia)",
-    "categorie": "Ornemental / mellifère",
+    "categorie": "Mellifère",
     "categorie_detail": "Arbres mellifères",
     "rubriques": [],
     "variants": [
@@ -855,7 +880,7 @@
   {
     "nom": "Cotoneaster Laiteux",
     "latin": "Cotoneaster lacteus",
-    "categorie": "Ornemental / mellifère",
+    "categorie": "Mellifère",
     "categorie_detail": "Arbres mellifères",
     "rubriques": [],
     "variants": [
@@ -1094,7 +1119,7 @@
   {
     "nom": "Gatillier, arbre aux poivres, poivre des moines",
     "latin": "Vitex agnus castus",
-    "categorie": "Ornemental / mellifère",
+    "categorie": "Mellifère",
     "categorie_detail": "Arbres mellifères",
     "rubriques": [],
     "variants": [
@@ -1126,7 +1151,7 @@
   {
     "nom": "Ginkgo biloba, arbre aux 40 écus",
     "latin": "Ginkgo biloba",
-    "categorie": "Ornemental / mellifère",
+    "categorie": "Ornemental",
     "categorie_detail": "Arbres thérapeutiques",
     "rubriques": [],
     "variants": [
@@ -1225,7 +1250,7 @@
     "categorie": "Fleurs",
     "categorie_detail": "Fleurs vivaces mellifères",
     "rubriques": [
-      "Ornemental / mellifère",
+      "Mellifère",
       "Aromatique / condimentaire"
     ],
     "variants": [
@@ -1478,7 +1503,7 @@
   {
     "nom": "Laurier des Iroquois",
     "latin": "Sassafras albidum",
-    "categorie": "Ornemental / mellifère",
+    "categorie": "Ornemental",
     "categorie_detail": "Arbres thérapeutiques",
     "rubriques": [],
     "variants": [
@@ -1603,7 +1628,7 @@
   {
     "nom": "Miscanthus géant",
     "latin": "Miscanthus x giganteus",
-    "categorie": "Ornemental / mellifère",
+    "categorie": "Ornemental",
     "categorie_detail": "Arbres à biomasse",
     "rubriques": [],
     "variants": [
@@ -1645,7 +1670,7 @@
     "categorie": "Fleurs",
     "categorie_detail": "Fleurs vivaces mellifères",
     "rubriques": [
-      "Ornemental / mellifère",
+      "Mellifère",
       "Aromatique / condimentaire"
     ],
     "variants": [
@@ -1736,7 +1761,7 @@
     "categorie": "Fleurs",
     "categorie_detail": "Fleurs vivaces mellifères",
     "rubriques": [
-      "Ornemental / mellifère"
+      "Mellifère"
     ],
     "variants": [
       {
@@ -1975,7 +2000,7 @@
   {
     "nom": "Paulownia, arbre impérial",
     "latin": "Paulownia tomentosa",
-    "categorie": "Ornemental / mellifère",
+    "categorie": "Mellifère",
     "categorie_detail": "Arbres mellifères",
     "rubriques": [],
     "variants": [
@@ -2264,7 +2289,7 @@
   {
     "nom": "Sophora du Japon, arbre des pagodes",
     "latin": "Styphnolobium japonicum",
-    "categorie": "Ornemental / mellifère",
+    "categorie": "Mellifère",
     "categorie_detail": "Arbres mellifères",
     "rubriques": [],
     "variants": [
@@ -2380,7 +2405,7 @@
     "categorie": "Fleurs",
     "categorie_detail": "Fleurs vivaces mellifères",
     "rubriques": [
-      "Ornemental / mellifère"
+      "Mellifère"
     ],
     "variants": [
       {
@@ -2442,7 +2467,7 @@
     "categorie": "Fleurs",
     "categorie_detail": "Fleurs vivaces mellifères",
     "rubriques": [
-      "Ornemental / mellifère"
+      "Mellifère"
     ],
     "variants": [
       {
