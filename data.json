@@ -2486,6 +2486,34 @@
     "fiche_url": "https://crocpaysage.com/products/sorbier-burka"
   },
   {
+    "nom": "Tamarillo, tomate en arbre",
+    "latin": "Solanum betaceum",
+    "categorie": "Fruitier",
+    "categorie_detail": "Arbustes fruitiers",
+    "rubriques": [],
+    "variants": [
+      {
+        "format": "2 L",
+        "prix": 20.0,
+        "stock": 0
+      }
+    ],
+    "prix_min": 20.0,
+    "stock_total": 0,
+    "hauteur": "2 à 4 m",
+    "rusticite": "-2°C (gélive)",
+    "rusticite_val": -2,
+    "exposition": "Soleil, abrité ; à rentrer hors gel l'hiver",
+    "terrain": "Sol riche et drainant",
+    "feuillage": "Persistant (hors gel)",
+    "origine": "Andes (Pérou, Équateur, Bolivie)",
+    "images": [
+      "assets/photos/tamarillo-fruits.jpg",
+      "assets/photos/tamarillo-arbre.jpg"
+    ],
+    "fiche_url": null
+  },
+  {
     "nom": "Taro",
     "latin": "Colocasia esculenta",
     "categorie": "Légume vivace",
