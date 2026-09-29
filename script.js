@@ -31,7 +31,8 @@
 
   $("year").textContent = new Date().getFullYear();
 
-  fetch("data.json")
+  // Toujours revérifier le catalogue auprès du site, pour voir tout de suite les mises à jour de l'inventaire
+  fetch("data.json", { cache: "no-cache" })
     .then((r) => r.json())
     .then((data) => {
       plants = data;
