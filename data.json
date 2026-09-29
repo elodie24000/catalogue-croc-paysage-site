@@ -2428,11 +2428,9 @@
   {
     "nom": "Savonnier de Chine, arbre aux lanternes",
     "latin": "Koelreuteria paniculata",
-    "categorie": "Ornemental",
+    "categorie": "Mellifère",
     "categorie_detail": "Arbres mellifères",
-    "rubriques": [
-      "Mellifère"
-    ],
+    "rubriques": [],
     "variants": [
       {
         "format": "Racines nues, 2 m",
