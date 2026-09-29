@@ -2335,13 +2335,18 @@
     "rubriques": [],
     "variants": [
       {
+        "format": "3 L, 60 cm",
+        "prix": 13.0,
+        "stock": 10
+      },
+      {
         "format": "Racines nues, 1.60 à 1.80 m",
         "prix": 12.0,
         "stock": 30
       }
     ],
     "prix_min": 12.0,
-    "stock_total": 30,
+    "stock_total": 40,
     "hauteur": "3 à 5 m",
     "rusticite": "-20°C",
     "rusticite_val": -20,
