@@ -356,35 +356,6 @@
     "fiche_url": "https://crocpaysage.com/products/aronie-a-fruits-noirs-melanocarpa"
   },
   {
-    "nom": "Asiminier",
-    "latin": "Asimina triloba",
-    "categorie": "Fruitier",
-    "categorie_detail": "Arbustes fruitiers",
-    "rubriques": [],
-    "variants": [
-      {
-        "format": "6L",
-        "prix": 48.0,
-        "stock": 0
-      }
-    ],
-    "prix_min": 48.0,
-    "stock_total": 0,
-    "hauteur": "3-5 m (jusqu'à 8 m selon variétés)",
-    "rusticite": "-20°C",
-    "rusticite_val": -20,
-    "exposition": "Mi-ombre, soleil",
-    "terrain": "Sol riche, profond et frais",
-    "feuillage": "Caduc",
-    "origine": "Etats-Unis",
-    "images": [
-      "https://drive.google.com/thumbnail?id=1GztmHAGrXa7CaqPeVzfhHN2uiKg4ND8U&sz=w1200",
-      "https://drive.google.com/thumbnail?id=1jfQWbHj1ZdDqFaLgB8JewSAAY2cexHlP&sz=w1200",
-      "https://drive.google.com/thumbnail?id=1ODrTzSSG62d2a10D6YtTjiLl4flcMtQZ&sz=w1200"
-    ],
-    "fiche_url": null
-  },
-  {
     "nom": "Asiminier (semis non greffé)",
     "latin": "Asimina triloba",
     "categorie": "Fruitier",
@@ -442,6 +413,35 @@
     "origine": "Etats-Unis",
     "images": [
       "https://drive.google.com/thumbnail?id=1GztmHAGrXa7CaqPeVzfhHN2uiKg4ND8U&sz=w1200",
+      "https://drive.google.com/thumbnail?id=1ODrTzSSG62d2a10D6YtTjiLl4flcMtQZ&sz=w1200"
+    ],
+    "fiche_url": null
+  },
+  {
+    "nom": "Asiminier Sunflower",
+    "latin": "Asimina triloba 'Sunflower'",
+    "categorie": "Fruitier",
+    "categorie_detail": "Arbustes fruitiers",
+    "rubriques": [],
+    "variants": [
+      {
+        "format": "6L",
+        "prix": 48.0,
+        "stock": 0
+      }
+    ],
+    "prix_min": 48.0,
+    "stock_total": 0,
+    "hauteur": "3-5 m (jusqu'à 8 m selon variétés)",
+    "rusticite": "-20°C",
+    "rusticite_val": -20,
+    "exposition": "Mi-ombre, soleil",
+    "terrain": "Sol riche, profond et frais",
+    "feuillage": "Caduc",
+    "origine": "Etats-Unis",
+    "images": [
+      "https://drive.google.com/thumbnail?id=1GztmHAGrXa7CaqPeVzfhHN2uiKg4ND8U&sz=w1200",
+      "https://drive.google.com/thumbnail?id=1jfQWbHj1ZdDqFaLgB8JewSAAY2cexHlP&sz=w1200",
       "https://drive.google.com/thumbnail?id=1ODrTzSSG62d2a10D6YtTjiLl4flcMtQZ&sz=w1200"
     ],
     "fiche_url": null
@@ -634,6 +634,31 @@
       "https://drive.google.com/thumbnail?id=1UsIDpx5aKsed7zaGuX4ABCTreUBd_RMh&sz=w1200"
     ],
     "fiche_url": "https://crocpaysage.com/products/caraganier-de-siberie"
+  },
+  {
+    "nom": "Cerisier nain «Carmine Jewel»",
+    "latin": "Prunus × kerrasis «Carmine Jewel»",
+    "categorie": "Fruitier",
+    "categorie_detail": "Arbustes fruitiers",
+    "rubriques": [],
+    "variants": [
+      {
+        "format": "2 L",
+        "prix": 17.0,
+        "stock": 0
+      }
+    ],
+    "prix_min": 17.0,
+    "stock_total": 0,
+    "hauteur": "1.5 à 2 m",
+    "rusticite": "-35°C",
+    "rusticite_val": -35,
+    "exposition": "Soleil",
+    "terrain": "Tout type de sol, drainé",
+    "feuillage": "Caduc",
+    "origine": "Canada (variété sélectionnée)",
+    "images": [],
+    "fiche_url": null
   },
   {
     "nom": "Chalef de Ebbing",
@@ -974,7 +999,7 @@
       {
         "format": "3L, 1m",
         "prix": 22.0,
-        "stock": 0
+        "stock": 20
       },
       {
         "format": "5L",
@@ -988,7 +1013,7 @@
       }
     ],
     "prix_min": 22.0,
-    "stock_total": 0,
+    "stock_total": 20,
     "hauteur": "3 à 5 m",
     "rusticite": "-15°C",
     "rusticite_val": -15,
