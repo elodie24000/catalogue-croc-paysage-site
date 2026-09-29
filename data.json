@@ -2423,6 +2423,33 @@
     "fiche_url": "https://crocpaysage.com/products/ragouminier-cerisier-du-nankin"
   },
   {
+    "nom": "Savonnier de Chine, arbre aux lanternes",
+    "latin": "Koelreuteria paniculata",
+    "categorie": "Ornemental",
+    "categorie_detail": "Arbres mellifères",
+    "rubriques": [
+      "Mellifère"
+    ],
+    "variants": [
+      {
+        "format": "Racines nues, 2 m",
+        "prix": 16.0,
+        "stock": 30
+      }
+    ],
+    "prix_min": 16.0,
+    "stock_total": 30,
+    "hauteur": "8 à 10 m",
+    "rusticite": "-25°C",
+    "rusticite_val": -25,
+    "exposition": "Soleil",
+    "terrain": "Tout type de sol, supporte le calcaire et la sécheresse",
+    "feuillage": "Caduc",
+    "origine": "Chine, Corée",
+    "images": [],
+    "fiche_url": null
+  },
+  {
     "nom": "Sophora du Japon, arbre des pagodes",
     "latin": "Styphnolobium japonicum",
     "categorie": "Mellifère",
