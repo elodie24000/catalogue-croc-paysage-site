@@ -1304,6 +1304,34 @@
     "fiche_url": "https://crocpaysage.com/products/grenadier-nain"
   },
   {
+    "nom": "Hardy Tamarillo Hybrid",
+    "latin": "Cyphomandra corymbiflora × Solanum diploconos",
+    "categorie": "Fruitier",
+    "categorie_detail": "Arbustes fruitiers",
+    "rubriques": [],
+    "variants": [
+      {
+        "format": "2 L",
+        "prix": 20.0,
+        "stock": 0
+      }
+    ],
+    "prix_min": 20.0,
+    "stock_total": 0,
+    "hauteur": "3 m (1 m de large)",
+    "rusticite": "-7°C",
+    "rusticite_val": -7,
+    "exposition": "Mi-ombre, soleil",
+    "terrain": "Tout type de sol",
+    "feuillage": "Persistant · non autofertile : à planter avec le tamarillo rustique",
+    "origine": "Hybride (Amérique du Sud)",
+    "images": [
+      "assets/photos/tamarillo-rustique-fruits.jpg",
+      "assets/photos/tamarillo-rustique-hybride.jpg"
+    ],
+    "fiche_url": null
+  },
+  {
     "nom": "Hysope officinale",
     "latin": "Hyssopus officinalis",
     "categorie": "Fleurs",
@@ -2536,39 +2564,12 @@
     "rusticite_val": -8,
     "exposition": "Mi-ombre, soleil",
     "terrain": "Tout type de sol",
-    "feuillage": "Persistant · non autofertile : à planter avec l'hybride rustique",
+    "feuillage": "Persistant · non autofertile : à planter avec le Hardy Tamarillo Hybrid",
     "origine": "Amérique du Sud (Brésil, Argentine)",
     "images": [
       "assets/photos/tamarillo-rustique-fruits.jpg",
       "assets/photos/tamarillo-rustique-main.jpg",
       "assets/photos/tamarillo-rustique.jpg"
-    ],
-    "fiche_url": null
-  },
-  {
-    "nom": "Tamarillo rustique hybride (Hardy Tamarillo Hybrid)",
-    "latin": "Cyphomandra corymbiflora × Solanum diploconos",
-    "categorie": "Fruitier",
-    "categorie_detail": "Arbustes fruitiers",
-    "rubriques": [],
-    "variants": [
-      {
-        "format": "2 L",
-        "prix": 20.0,
-        "stock": 0
-      }
-    ],
-    "prix_min": 20.0,
-    "stock_total": 0,
-    "hauteur": "3 m (1 m de large)",
-    "rusticite": "-7°C",
-    "rusticite_val": -7,
-    "exposition": "Mi-ombre, soleil",
-    "terrain": "Tout type de sol",
-    "feuillage": "Persistant · non autofertile : à planter avec le tamarillo rustique",
-    "origine": "Hybride (Amérique du Sud)",
-    "images": [
-      "assets/photos/tamarillo-rustique-hybride.jpg"
     ],
     "fiche_url": null
   },
