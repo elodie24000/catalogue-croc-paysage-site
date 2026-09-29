@@ -1176,6 +1176,35 @@
     "fiche_url": "https://crocpaysage.com/products/gatillier-arbre-aux-poivres-poivre-des-moines"
   },
   {
+    "nom": "Gingembre vivace, gingembre japonais (Myoga)",
+    "latin": "Zingiber mioga",
+    "categorie": "Légume vivace",
+    "categorie_detail": "Légumes vivaces",
+    "rubriques": [
+      "Aromatique / condimentaire"
+    ],
+    "variants": [
+      {
+        "format": "1,5 L",
+        "prix": 9.0,
+        "stock": 0
+      }
+    ],
+    "prix_min": 9.0,
+    "stock_total": 0,
+    "hauteur": "1 m",
+    "rusticite": "-15°C (rhizome paillé)",
+    "rusticite_val": -15,
+    "exposition": "Mi-ombre",
+    "terrain": "Sol frais, riche et humifère",
+    "feuillage": "Caduc (vivace)",
+    "origine": "Japon, Chine",
+    "images": [
+      "assets/photos/gingembre-vivace.jpg"
+    ],
+    "fiche_url": null
+  },
+  {
     "nom": "Ginkgo biloba, arbre aux 40 écus",
     "latin": "Ginkgo biloba",
     "categorie": "Ornemental",
