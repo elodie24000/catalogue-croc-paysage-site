@@ -1,5 +1,24 @@
 // Commande en ligne Croc'Paysage — panier, calendrier de retrait et envoi à la pépinière.
 // Chargé avant script.js, qui appelle window.panier.ajouter(...) depuis les fiches produit.
+// Bouton « retour » du téléphone : chaque fenêtre ouverte (fiche, panier, alerte) ajoute une
+// étape à l'historique, si bien que « retour » la referme au lieu de quitter le catalogue.
+window.couches = (() => {
+  const pile = []; // fonctions de fermeture, la dernière fenêtre ouverte en haut
+  function ouverte(fermer) {
+    try { history.pushState({ couche: pile.length + 1 }, ""); } catch { return; }
+    pile.push(fermer);
+  }
+  // Fermeture demandée par ✕, Échap ou un clic à côté : on repasse par l'historique
+  function fermer(fermerFn) {
+    const i = pile.lastIndexOf(fermerFn);
+    if (i === pile.length - 1 && i >= 0) { history.back(); return; } // popstate fera la fermeture
+    if (i >= 0) pile.splice(i, 1);
+    fermerFn();
+  }
+  addEventListener("popstate", () => { const f = pile.pop(); if (f) f(); });
+  return { ouverte, fermer };
+})();
+
 (() => {
   const API = "https://irqxkuhkkdqawksmblfl.supabase.co/functions/v1/commande";
   // Clé publique « anon » : elle n'autorise que l'appel de la fonction, pas la lecture des commandes.
@@ -113,6 +132,7 @@
     document.body.style.overflow = "hidden";
     requestAnimationFrame(() => els.fond.classList.add("open"));
     els.fermer.focus();
+    window.couches.ouverte(fermer);
   }
   function fermer() {
     els.fond.classList.remove("open");
@@ -121,9 +141,10 @@
     if (dernierFocus) dernierFocus.focus();
   }
   els.bouton.addEventListener("click", ouvrir);
-  els.fermer.addEventListener("click", fermer);
-  els.fond.addEventListener("click", (e) => { if (e.target === els.fond) fermer(); });
-  document.addEventListener("keydown", (e) => { if (e.key === "Escape" && !els.fond.hidden) fermer(); });
+  const demanderFermeture = () => window.couches.fermer(fermer);
+  els.fermer.addEventListener("click", demanderFermeture);
+  els.fond.addEventListener("click", (e) => { if (e.target === els.fond) demanderFermeture(); });
+  document.addEventListener("keydown", (e) => { if (e.key === "Escape" && !els.fond.hidden) demanderFermeture(); });
   els.versInfos.addEventListener("click", () => { etape("infos"); els.recap.textContent = euros(total()); chargerFermetures(); });
   els.retour.addEventListener("click", () => { etape("panier"); rendrePanier(); });
 
@@ -311,7 +332,7 @@
     els.erreur.hidden = false;
     els.erreur.scrollIntoView({ block: "nearest", behavior: "smooth" });
   }
-  $("done-close").addEventListener("click", fermer);
+  $("done-close").addEventListener("click", demanderFermeture);
 
   // ---------- Petit message de confirmation ----------
   let minuterie;
@@ -338,14 +359,16 @@
     alerte.form.hidden = false;
     alerte.fond.hidden = false;
     alerte.form.querySelector("input").focus();
+    window.couches.ouverte(fermerAlerte);
   }
   function fermerAlerte() {
     alerte.fond.hidden = true;
     if (alerteFocus) alerteFocus.focus();
   }
-  alerte.fermer.addEventListener("click", fermerAlerte);
-  alerte.fond.addEventListener("click", (e) => { if (e.target === alerte.fond) fermerAlerte(); });
-  document.addEventListener("keydown", (e) => { if (e.key === "Escape" && !alerte.fond.hidden) { e.stopImmediatePropagation(); fermerAlerte(); } }, true);
+  const demanderFermetureAlerte = () => window.couches.fermer(fermerAlerte);
+  alerte.fermer.addEventListener("click", demanderFermetureAlerte);
+  alerte.fond.addEventListener("click", (e) => { if (e.target === alerte.fond) demanderFermetureAlerte(); });
+  document.addEventListener("keydown", (e) => { if (e.key === "Escape" && !alerte.fond.hidden) { e.stopImmediatePropagation(); demanderFermetureAlerte(); } }, true);
   alerte.form.addEventListener("submit", async (e) => {
     e.preventDefault();
     const f = new FormData(alerte.form);

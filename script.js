@@ -277,11 +277,14 @@
         <h3>Commander</h3>
         ${orderBox(p)}
         <p class="modal-order-note">Retrait à la pépinière de Hautefaye. Paiement par virement, ou sur place (espèces, chèque).</p>
+        <button type="button" class="modal-back" data-close>← Retour au catalogue</button>
       </div>`;
     els.modalContent.dataset.plant = plants.indexOf(p);
     els.overlay.hidden = false;
     document.body.style.overflow = "hidden";
+    els.overlay.querySelector(".modal").scrollTop = 0;
     els.modalClose.focus();
+    window.couches.ouverte(closeModal);
   }
 
   // Ajout au panier depuis la fiche
@@ -293,11 +296,12 @@
     document.body.style.overflow = "";
     if (lastFocus) lastFocus.focus();
   }
-  els.modalClose.addEventListener("click", closeModal);
-  els.overlay.addEventListener("click", (e) => { if (e.target === els.overlay) closeModal(); });
+  const requestClose = () => window.couches.fermer(closeModal);
+  els.modalClose.addEventListener("click", requestClose);
+  els.overlay.addEventListener("click", (e) => { if (e.target === els.overlay || e.target.closest("[data-close]")) requestClose(); });
   document.addEventListener("keydown", (e) => {
     // Si le panier est ouvert par-dessus la fiche, Échap ferme d'abord le panier
-    if (e.key === "Escape" && !els.overlay.hidden && document.getElementById("drawer-overlay").hidden) closeModal();
+    if (e.key === "Escape" && !els.overlay.hidden && document.getElementById("drawer-overlay").hidden) requestClose();
   });
 })();
 
