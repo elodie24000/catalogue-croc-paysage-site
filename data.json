@@ -1722,6 +1722,31 @@
     "fiche_url": "https://crocpaysage.com/products/murier-blanc"
   },
   {
+    "nom": "Mûrier nain «Mojo Berry»",
+    "latin": "Morus rotundiloba «Mojo Berry»",
+    "categorie": "Fruitier",
+    "categorie_detail": "Arbustes fruitiers",
+    "rubriques": [],
+    "variants": [
+      {
+        "format": "5 L",
+        "prix": 24.0,
+        "stock": 10
+      }
+    ],
+    "prix_min": 24.0,
+    "stock_total": 10,
+    "hauteur": "1 à 1.5 m",
+    "rusticite": "-15°C",
+    "rusticite_val": -15,
+    "exposition": "Soleil",
+    "terrain": "Tout type de sol, drainé",
+    "feuillage": "Caduc",
+    "origine": "Asie du Sud-Est (variété sélectionnée)",
+    "images": [],
+    "fiche_url": null
+  },
+  {
     "nom": "Mûrier sans épines «Black satin»",
     "latin": "Rubus fruticosus «Black Satin»",
     "categorie": "Fruitier",
@@ -2140,6 +2165,31 @@
     "fiche_url": "https://crocpaysage.com/products/poireaux-perpetuels"
   },
   {
+    "nom": "Poivrier Beecheyanum",
+    "latin": "Zanthoxylum beecheyanum",
+    "categorie": "Aromatique / condimentaire",
+    "categorie_detail": "Arbres à vertus culinaires",
+    "rubriques": [],
+    "variants": [
+      {
+        "format": "5 L",
+        "prix": 32.0,
+        "stock": 4
+      }
+    ],
+    "prix_min": 32.0,
+    "stock_total": 4,
+    "hauteur": "1 à 2 m",
+    "rusticite": "-10°C",
+    "rusticite_val": -10,
+    "exposition": "Ensoleillée à mi-ombre",
+    "terrain": "Tout type de sol, drainé",
+    "feuillage": "Persistant, épines sur les branches",
+    "origine": "Japon, Taïwan",
+    "images": [],
+    "fiche_url": null
+  },
+  {
     "nom": "Poivrier de Corée",
     "latin": "Zanthoxylum coreanum",
     "categorie": "Fruitier",
@@ -2251,6 +2301,31 @@
       "https://drive.google.com/thumbnail?id=1rLyCcM6mBHyWBl58cUwQMNl_FbDnE1Cq&sz=w1200"
     ],
     "fiche_url": "https://crocpaysage.com/products/poivrier-du-sichuan"
+  },
+  {
+    "nom": "Pêcher de vigne",
+    "latin": "Prunus persica",
+    "categorie": "Fruitier",
+    "categorie_detail": "Arbres fruitiers et à baies",
+    "rubriques": [],
+    "variants": [
+      {
+        "format": "Racines nues, 1.60 à 1.80 m",
+        "prix": 12.0,
+        "stock": 30
+      }
+    ],
+    "prix_min": 12.0,
+    "stock_total": 30,
+    "hauteur": "3 à 5 m",
+    "rusticite": "-20°C",
+    "rusticite_val": -20,
+    "exposition": "Soleil",
+    "terrain": "Tout type de sol, drainé",
+    "feuillage": "Caduc",
+    "origine": "Chine (acclimaté en France)",
+    "images": [],
+    "fiche_url": null
   },
   {
     "nom": "Ragouminier, Cerisier du Nankin",
