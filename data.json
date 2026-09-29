@@ -562,7 +562,10 @@
     "terrain": "Frais, assez riche en azote",
     "feuillage": "Caduc, jaune en hiver",
     "origine": "Balkans",
-    "images": [],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0850/6703/9054/files/fruitbaiedemai.jpg?v=1724053751",
+      "https://drive.google.com/thumbnail?id=1bMxv3rFAZIE9xY5hq3L60xi0f9g25U_l&sz=w1200"
+    ],
     "fiche_url": "https://crocpaysage.com/products/baie-de-mai-bleu-velours-chevrefeuille-nain"
   },
   {
