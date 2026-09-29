@@ -51,7 +51,9 @@
     "terrain": "Tout type de sol",
     "feuillage": "Caduc (vivace)",
     "origine": "Europe, Asie",
-    "images": [],
+    "images": [
+      "assets/photos/agripaume.jpg"
+    ],
     "fiche_url": null
   },
   {
