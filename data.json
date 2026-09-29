@@ -1745,7 +1745,10 @@
     "terrain": "Sol frais et riche",
     "feuillage": "Caduc (vivace)",
     "origine": "Amérique du Nord",
-    "images": [],
+    "images": [
+      "assets/photos/monarde-fleur.jpg",
+      "assets/photos/monarde-massif.jpg"
+    ],
     "fiche_url": null
   },
   {
