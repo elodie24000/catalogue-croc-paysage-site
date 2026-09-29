@@ -2493,13 +2493,13 @@
     "rubriques": [],
     "variants": [
       {
-        "format": "2L",
-        "prix": 12.0,
-        "stock": 2
+        "format": "1,5 L",
+        "prix": 11.0,
+        "stock": 0
       }
     ],
-    "prix_min": 12.0,
-    "stock_total": 2,
+    "prix_min": 11.0,
+    "stock_total": 0,
     "hauteur": "1.5 m",
     "rusticite": "-8°C",
     "rusticite_val": -8,
