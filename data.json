@@ -1304,34 +1304,6 @@
     "fiche_url": "https://crocpaysage.com/products/grenadier-nain"
   },
   {
-    "nom": "Hardy Tamarillo Hybrid",
-    "latin": "Cyphomandra corymbiflora × Solanum diploconos",
-    "categorie": "Fruitier",
-    "categorie_detail": "Arbustes fruitiers",
-    "rubriques": [],
-    "variants": [
-      {
-        "format": "2 L",
-        "prix": 20.0,
-        "stock": 0
-      }
-    ],
-    "prix_min": 20.0,
-    "stock_total": 0,
-    "hauteur": "3 m (1 m de large)",
-    "rusticite": "-7°C",
-    "rusticite_val": -7,
-    "exposition": "Mi-ombre, soleil",
-    "terrain": "Tout type de sol",
-    "feuillage": "Persistant · non autofertile : à planter avec le tamarillo rustique",
-    "origine": "Hybride (Amérique du Sud)",
-    "images": [
-      "assets/photos/tamarillo-rustique-fruits.jpg",
-      "assets/photos/tamarillo-rustique-hybride.jpg"
-    ],
-    "fiche_url": null
-  },
-  {
     "nom": "Hysope officinale",
     "latin": "Hyssopus officinalis",
     "categorie": "Fleurs",
@@ -2547,11 +2519,44 @@
     "fiche_url": "https://crocpaysage.com/products/sorbier-burka"
   },
   {
+    "nom": "Hardy Tamarillo Hybrid",
+    "latin": "Cyphomandra corymbiflora × Solanum diploconos",
+    "categorie": "Fruitier",
+    "categorie_detail": "Arbustes fruitiers",
+    "rubriques": [
+      "Exotique"
+    ],
+    "variants": [
+      {
+        "format": "2 L",
+        "prix": 20.0,
+        "stock": 0
+      }
+    ],
+    "prix_min": 20.0,
+    "stock_total": 0,
+    "hauteur": "3 m (1 m de large)",
+    "rusticite": "-7°C",
+    "rusticite_val": -7,
+    "exposition": "Mi-ombre, soleil",
+    "terrain": "Tout type de sol",
+    "feuillage": "Persistant · non autofertile : à planter avec le tamarillo rustique",
+    "origine": "Hybride (Amérique du Sud)",
+    "images": [
+      "assets/photos/tamarillo-rustique-fruits.jpg",
+      "assets/photos/tamarillo-rustique-hybride.jpg"
+    ],
+    "fiche_url": null,
+    "tri": "Tamarillo hardy hybrid"
+  },
+  {
     "nom": "Tamarillo rustique",
     "latin": "Cyphomandra corymbiflora (Solanum corymbiflorum)",
     "categorie": "Fruitier",
     "categorie_detail": "Arbustes fruitiers",
-    "rubriques": [],
+    "rubriques": [
+      "Exotique"
+    ],
     "variants": [
       {
         "format": "2 L",
@@ -2580,7 +2585,9 @@
     "latin": "Solanum betaceum",
     "categorie": "Fruitier",
     "categorie_detail": "Arbustes fruitiers",
-    "rubriques": [],
+    "rubriques": [
+      "Exotique"
+    ],
     "variants": [
       {
         "format": "2 L",

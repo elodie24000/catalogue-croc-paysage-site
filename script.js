@@ -9,6 +9,7 @@
     "Mellifère": "#7c5a9e",
     "Aromatique / condimentaire": "#3f6b4a",
     "Fleurs": "#b0466e",
+    "Exotique": "#1f7a7a",
   };
   const catColor = (c) => CAT_COLORS[c] || "#6b7928";
 
@@ -102,7 +103,7 @@
       (!els.stock.checked || p.stock_total > 0));
 
     const sorters = {
-      nom: (a, b) => a.nom.localeCompare(b.nom, "fr"),
+      nom: (a, b) => (a.tri || a.nom).localeCompare(b.tri || b.nom, "fr"),
       prix: (a, b) => a.prix_min - b.prix_min,
       rusticite: (a, b) => (a.rusticite_val ?? 99) - (b.rusticite_val ?? 99),
       // Les plantes sans hauteur chiffrée vont toujours en fin de liste.
