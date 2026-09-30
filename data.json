@@ -2419,7 +2419,9 @@
     "terrain": "Tout type de sol, drainé",
     "feuillage": "Caduc",
     "origine": "Chine (acclimaté en France)",
-    "images": [],
+    "images": [
+      "assets/photos/pecher-de-vigne.jpg"
+    ],
     "fiche_url": null
   },
   {
