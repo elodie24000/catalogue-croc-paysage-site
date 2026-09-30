@@ -1179,6 +1179,33 @@
     "fiche_url": "https://crocpaysage.com/products/gatillier-arbre-aux-poivres-poivre-des-moines"
   },
   {
+    "nom": "Gingembre noir, ginseng thaï (Krachai dam)",
+    "latin": "Kaempferia parviflora",
+    "categorie": "Exotique",
+    "categorie_detail": "Plantes exotiques",
+    "rubriques": [
+      "Aromatique / condimentaire"
+    ],
+    "variants": [
+      {
+        "format": "1,5 L",
+        "prix": 15.0,
+        "stock": 0
+      }
+    ],
+    "prix_min": 15.0,
+    "stock_total": 0,
+    "hauteur": "20 à 30 cm",
+    "rusticite": "0°C (non rustique)",
+    "rusticite_val": 0,
+    "exposition": "Mi-ombre, lumière vive ; à rentrer l'hiver",
+    "terrain": "Léger, riche et drainant (craint l'excès d'eau)",
+    "feuillage": "Caduc (repos du rhizome l'hiver, au sec)",
+    "origine": "Thaïlande, Laos, Cambodge",
+    "images": [],
+    "fiche_url": null
+  },
+  {
     "nom": "Gingembre vivace, gingembre japonais (Myoga)",
     "latin": "Zingiber mioga",
     "categorie": "Légume vivace",
