@@ -2737,7 +2737,9 @@
     "terrain": "Sol drainant, même sec",
     "feuillage": "Caduc (vivace)",
     "origine": "Amérique du Nord (hybride horticole)",
-    "images": [],
+    "images": [
+      "assets/photos/echinacee-clementine.jpg"
+    ],
     "fiche_url": null
   }
 ]
