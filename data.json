@@ -2625,7 +2625,9 @@
     "terrain": "Tout type de sol, préférence humifère",
     "feuillage": "Caduc",
     "origine": "Asie du Sud-Est",
-    "images": [],
+    "images": [
+      "assets/photos/taro.jpg"
+    ],
     "fiche_url": "https://crocpaysage.com/products/taro"
   },
   {
