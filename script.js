@@ -51,7 +51,8 @@
     const counts = {};
     // Une plante compte dans sa catégorie et dans ses rubriques (ex. fleur mellifère et aromatique)
     plants.forEach((p) => categoriesDe(p).forEach((c) => { counts[c] = (counts[c] || 0) + 1; }));
-    const cats = Object.keys(counts).sort((a, b) => counts[b] - counts[a]);
+    // Rubriques par ordre alphabétique, après « Tout le catalogue »
+    const cats = Object.keys(counts).sort((a, b) => a.localeCompare(b, "fr"));
     const chip = (value, label, n) => `
       <button type="button" class="chip" data-cat="${esc(value)}" aria-pressed="${value === currentCat}"
         style="--c:${value ? catColor(value) : "var(--olive)"}">
