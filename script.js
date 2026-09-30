@@ -45,6 +45,8 @@
     });
 
 
+  // Format montré sur l'étiquette : le premier en stock, sinon le premier tout court
+  const formatParDefaut = (p) => p.variants[Math.max(0, p.variants.findIndex((v) => v.stock > 0))];
   const categoriesDe = (p) => [p.categorie, ...(p.rubriques || [])];
 
   function buildChips() {
@@ -105,7 +107,8 @@
 
     const sorters = {
       nom: (a, b) => (a.tri || a.nom).localeCompare(b.tri || b.nom, "fr"),
-      prix: (a, b) => a.prix_min - b.prix_min,
+      // Même prix que celui affiché sur l'étiquette (premier format en stock)
+      prix: (a, b) => formatParDefaut(a).prix - formatParDefaut(b).prix,
       rusticite: (a, b) => (a.rusticite_val ?? 99) - (b.rusticite_val ?? 99),
       // Les plantes sans hauteur chiffrée vont toujours en fin de liste.
       hauteur: (a, b) => (hauteurMetres(a) ?? Infinity) - (hauteurMetres(b) ?? Infinity),
@@ -209,7 +212,7 @@
       p.exposition && `<span class="pill" title="Exposition">☀ ${esc(p.exposition)}</span>`,
       p.hauteur && `<span class="pill" title="Hauteur">↕ ${esc(p.hauteur)}</span>`,
     ].filter(Boolean).join("");
-    const defaut = p.variants[Math.max(0, p.variants.findIndex((v) => v.stock > 0))];
+    const defaut = formatParDefaut(p);
     return `
       <article class="card" data-i="${i}" style="--c:${catColor(p.categorie)}">
         <div class="card-media-wrap">
