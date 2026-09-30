@@ -6,7 +6,7 @@
     "categorie_detail": "Fleurs vivaces mellifères",
     "rubriques": [
       "Mellifère",
-      "Aromatique / condimentaire"
+      "Aromatique"
     ],
     "variants": [
       {
@@ -287,7 +287,7 @@
   {
     "nom": "Arbre à salade, cédrèle de Chine",
     "latin": "Toona sinensis",
-    "categorie": "Aromatique / condimentaire",
+    "categorie": "Aromatique",
     "categorie_detail": "Arbres à vertus culinaires",
     "rubriques": [],
     "variants": [
@@ -1184,7 +1184,7 @@
     "categorie": "Exotique",
     "categorie_detail": "Plantes exotiques",
     "rubriques": [
-      "Aromatique / condimentaire"
+      "Aromatique"
     ],
     "variants": [
       {
@@ -1211,7 +1211,7 @@
     "categorie": "Légume vivace",
     "categorie_detail": "Légumes vivaces",
     "rubriques": [
-      "Aromatique / condimentaire"
+      "Aromatique"
     ],
     "variants": [
       {
@@ -1337,7 +1337,7 @@
     "categorie_detail": "Fleurs vivaces mellifères",
     "rubriques": [
       "Mellifère",
-      "Aromatique / condimentaire"
+      "Aromatique"
     ],
     "variants": [
       {
@@ -1757,7 +1757,7 @@
     "categorie_detail": "Fleurs vivaces mellifères",
     "rubriques": [
       "Mellifère",
-      "Aromatique / condimentaire"
+      "Aromatique"
     ],
     "variants": [
       {
@@ -2168,7 +2168,7 @@
   {
     "nom": "Pin parasol",
     "latin": "Pinus pinea",
-    "categorie": "Aromatique / condimentaire",
+    "categorie": "Aromatique",
     "categorie_detail": "Arbres à vertus culinaires",
     "rubriques": [],
     "variants": [
@@ -2256,7 +2256,7 @@
   {
     "nom": "Poivrier Beecheyanum",
     "latin": "Zanthoxylum beecheyanum",
-    "categorie": "Aromatique / condimentaire",
+    "categorie": "Aromatique",
     "categorie_detail": "Arbres à vertus culinaires",
     "rubriques": [],
     "variants": [
@@ -2356,7 +2356,7 @@
   {
     "nom": "Poivrier du Sichuan",
     "latin": "Zanthoxylum piperitum",
-    "categorie": "Aromatique / condimentaire",
+    "categorie": "Aromatique",
     "categorie_detail": "Arbres à vertus culinaires",
     "rubriques": [],
     "variants": [

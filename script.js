@@ -7,7 +7,7 @@
     "Liane fruitière": "#7a6a1c",
     "Ornemental": "#8a4516",
     "Mellifère": "#7c5a9e",
-    "Aromatique / condimentaire": "#3f6b4a",
+    "Aromatique": "#3f6b4a",
     "Fleurs": "#b0466e",
     "Exotique": "#1f7a7a",
   };

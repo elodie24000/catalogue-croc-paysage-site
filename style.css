@@ -106,7 +106,8 @@ body {
 }
 #search:focus { outline: none; border-color: var(--leaf); box-shadow: 0 0 0 4px rgba(107, 121, 40, .15); }
 
-.chips { display: flex; gap: 8px; overflow-x: auto; padding-bottom: 2px; scrollbar-width: none; }
+/* Toutes les rubriques restent visibles : elles passent à la ligne au lieu de défiler */
+.chips { display: flex; flex-wrap: wrap; gap: 8px; padding-bottom: 2px; }
 .chips::-webkit-scrollbar { display: none; }
 .chip {
   flex: 0 0 auto;
@@ -128,6 +129,10 @@ body {
 .chip .count { font-size: .76rem; color: var(--muted); font-weight: 700; }
 .chip .dot { width: 9px; height: 9px; border-radius: 50%; background: var(--c, var(--leaf)); }
 .chip[aria-pressed="true"] { background: var(--olive); border-color: var(--olive); color: var(--cream); }
+@media (max-width: 520px) {
+  .chips { gap: 6px; }
+  .chip { padding: 6px 11px; font-size: .8rem; gap: 6px; }
+}
 .chip[aria-pressed="true"] .count { color: var(--gold-soft); }
 
 .filter-row { display: flex; flex-wrap: wrap; align-items: end; gap: 12px 20px; }
