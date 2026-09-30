@@ -29,7 +29,7 @@
   const norm = (s) => String(s ?? "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
   const price = (n) => n.toLocaleString("fr-FR", { minimumFractionDigits: n % 1 ? 2 : 0, maximumFractionDigits: 2 }) + " €";
 
-  $("year").textContent = new Date().getFullYear();
+  if ($("year")) $("year").textContent = new Date().getFullYear();
 
   // Toujours revérifier le catalogue auprès du site, pour voir tout de suite les mises à jour de l'inventaire
   fetch("data.json", { cache: "no-cache" })
@@ -304,6 +304,26 @@
     // Si le panier est ouvert par-dessus la fiche, Échap ferme d'abord le panier
     if (e.key === "Escape" && !els.overlay.hidden && document.getElementById("drawer-overlay").hidden) requestClose();
   });
+})();
+
+// Bandeau : la devise prend exactement la largeur des poires + « croc' paysage »
+(() => {
+  const row = document.querySelector(".brand-row");
+  const line = document.querySelector(".hero-tagline");
+  if (!row || !line) return;
+  const ajuster = () => {
+    line.style.fontSize = "";
+    const cible = row.getBoundingClientRect().width;
+    const actuelle = line.getBoundingClientRect().width;
+    if (!cible || !actuelle) return;
+    const taille = parseFloat(getComputedStyle(line).fontSize);
+    line.style.fontSize = `${Math.floor(taille * cible / actuelle * 10) / 10}px`;
+  };
+  addEventListener("resize", ajuster);
+  addEventListener("load", ajuster);
+  if (document.fonts) document.fonts.ready.then(ajuster);
+  row.querySelectorAll("img").forEach((img) => img.complete || img.addEventListener("load", ajuster));
+  ajuster();
 })();
 
 // Bande d'images : fondu d'une image à l'autre toutes les 5 secondes

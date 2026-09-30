@@ -917,9 +917,23 @@ button.cal-day.selected { background: var(--olive); border-color: var(--olive); 
   justify-content: center;
   gap: clamp(14px, 3.5vw, 48px);
 }
-.slide-logo .brand { width: auto; height: 100%; max-height: 330px; }
-.slide-logo .brand-logo { height: 100%; width: auto; }
-.slide-logo .hero-text h1 { font-size: clamp(1.1rem, 4.2vw, 3.3rem); }
+/* Bandeau : poires et « croc' paysage » à la même hauteur, la devise en dessous sur toute la largeur */
+.slide-logo-inner { flex-direction: column; align-items: flex-start; justify-content: center; gap: 0; }
+.brand-row { height: 62%; display: flex; align-items: center; gap: clamp(10px, 2.5vw, 34px); }
+.slide-logo .brand { width: auto; height: 100%; max-height: none; }
+.slide-logo .brand-fruits { height: 100%; width: auto; display: block; }
+.slide-logo .brand-name { margin: 0; height: 88%; line-height: 0; }
+.slide-logo .brand-wordmark { height: 100%; width: auto; display: block; }
+.hero-tagline {
+  margin: 2.5% 0 0;
+  font-family: var(--font-title);
+  font-weight: 700;
+  font-size: clamp(.8rem, 2.3vw, 1.9rem); /* ajustée par script.js pour occuper toute la largeur */
+  line-height: 1.1;
+  white-space: nowrap;
+  color: var(--olive-dark);
+}
+.hero-tagline span { color: var(--leaf); }
 .slider-dots {
   position: absolute;
   left: 50%;
