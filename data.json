@@ -759,6 +759,58 @@
     "fiche_url": "https://crocpaysage.com/products/chou-daubenton"
   },
   {
+    "nom": "Chèvrefeuille d'hiver",
+    "latin": "Lonicera fragrantissima",
+    "categorie": "Mellifère",
+    "categorie_detail": "Arbustes mellifères",
+    "rubriques": [],
+    "variants": [
+      {
+        "format": "2 L",
+        "prix": 14.0,
+        "stock": 0
+      }
+    ],
+    "prix_min": 14.0,
+    "stock_total": 0,
+    "hauteur": "1,5 à 2,5 m",
+    "rusticite": "-20°C",
+    "rusticite_val": -20,
+    "exposition": "Soleil, mi-ombre",
+    "terrain": "Tout type de sol, même calcaire",
+    "feuillage": "Caduc à semi-persistant · fleurs blanc crème très parfumées de décembre à mars, précieuses pour les abeilles en hiver",
+    "origine": "Chine orientale",
+    "images": [],
+    "fiche_url": null
+  },
+  {
+    "nom": "Chèvrefeuille de Tartarie",
+    "latin": "Lonicera tatarica",
+    "categorie": "Mellifère",
+    "categorie_detail": "Arbustes mellifères",
+    "rubriques": [],
+    "variants": [
+      {
+        "format": "2 L",
+        "prix": 14.0,
+        "stock": 0
+      }
+    ],
+    "prix_min": 14.0,
+    "stock_total": 0,
+    "hauteur": "2 à 3 m",
+    "rusticite": "-35°C",
+    "rusticite_val": -35,
+    "exposition": "Soleil, mi-ombre",
+    "terrain": "Tout type de sol, même calcaire ; supporte la sécheresse",
+    "feuillage": "Caduc · fleurs roses en avril-mai, très visitées par les abeilles",
+    "origine": "Russie méridionale, Asie centrale",
+    "images": [
+      "assets/photos/chevrefeuille-tartarie.jpg"
+    ],
+    "fiche_url": null
+  },
+  {
     "nom": "Ciboule de Chine",
     "latin": "Allium tuberosum",
     "categorie": "Légume vivace",
@@ -1196,9 +1248,9 @@
     "prix_min": 15.0,
     "stock_total": 0,
     "hauteur": "20 à 30 cm",
-    "rusticite": "0°C (non rustique)",
+    "rusticite": "0°C (gélif, à hiverner)",
     "rusticite_val": 0,
-    "exposition": "Mi-ombre, lumière vive ; hiverner le pot au chaud (vers 18°C)",
+    "exposition": "Mi-ombre, lumière vive",
     "terrain": "Léger, drainant, légèrement acide à neutre ; craint l'excès d'eau",
     "feuillage": "Caduc (repos du rhizome l'hiver, au sec)",
     "origine": "Thaïlande, Laos, Cambodge",
@@ -2048,70 +2100,6 @@
     "fiche_url": "https://crocpaysage.com/products/orange-cara-cara"
   },
   {
-    "nom": "Oranger Navel Chocolate",
-    "latin": "Citrus sinensis 'Navel Chocolate'",
-    "categorie": "Agrume",
-    "categorie_detail": "Agrumes",
-    "rubriques": [],
-    "variants": [
-      {
-        "format": "6L",
-        "prix": 52.0,
-        "stock": 0
-      },
-      {
-        "format": "10L",
-        "prix": 75.0,
-        "stock": 0
-      }
-    ],
-    "prix_min": 52.0,
-    "stock_total": 0,
-    "hauteur": "5 m",
-    "rusticite": "-10°C",
-    "rusticite_val": -10,
-    "exposition": "Soleil, mi-ombre",
-    "terrain": "Conditions agrumes",
-    "feuillage": "Persistant",
-    "origine": null,
-    "images": [
-      "https://cdn.shopify.com/s/files/1/0850/6703/9054/files/orange_navel_chocolate.jpg?v=1767554841"
-    ],
-    "fiche_url": "https://crocpaysage.com/products/oranger-navel-chocolate"
-  },
-  {
-    "nom": "Oranger Navelina",
-    "latin": "Citrus sinensis 'Navelina'",
-    "categorie": "Agrume",
-    "categorie_detail": "Agrumes",
-    "rubriques": [],
-    "variants": [
-      {
-        "format": "6L",
-        "prix": 52.0,
-        "stock": 0
-      },
-      {
-        "format": "10L",
-        "prix": 75.0,
-        "stock": 0
-      }
-    ],
-    "prix_min": 52.0,
-    "stock_total": 0,
-    "hauteur": "5 m",
-    "rusticite": "-10°C",
-    "rusticite_val": -10,
-    "exposition": "Soleil, mi-ombre",
-    "terrain": "Conditions agrumes",
-    "feuillage": "Persistant",
-    "origine": "Californie (États-Unis)",
-    "images": [
-      "https://cdn.shopify.com/s/files/1/0850/6703/9054/files/oranger_navelina_navel_orange.jpg?v=1767555285"
-    ],
-    "fiche_url": "https://crocpaysage.com/products/oranger-navelina"
-  },
-  {
     "nom": "Paulownia, arbre impérial",
     "latin": "Paulownia tomentosa",
     "categorie": "Mellifère",
@@ -2467,11 +2455,11 @@
       {
         "format": "Racines nues, 2 m",
         "prix": 16.0,
-        "stock": 30
+        "stock": 20
       }
     ],
     "prix_min": 16.0,
-    "stock_total": 30,
+    "stock_total": 20,
     "hauteur": "8 à 10 m",
     "rusticite": "-25°C",
     "rusticite_val": -25,
