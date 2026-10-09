@@ -49,17 +49,24 @@
   // Format montré sur l'étiquette : le premier en stock, sinon le premier tout court
   const formatParDefaut = (p) => p.variants[Math.max(0, p.variants.findIndex((v) => v.stock > 0))];
   const categoriesDe = (p) => [p.categorie, ...(p.rubriques || [])];
+  // Promo : un format a un « ancien_prix » (prix habituel barré) ou la plante est dans la rubrique Promo
+  const enPromo = (p) => (p.rubriques || []).includes("Promo") || p.variants.some((v) => v.ancien_prix);
+  const remise = (p) => Math.max(0, ...p.variants.filter((v) => v.ancien_prix > v.prix)
+    .map((v) => Math.round((1 - v.prix / v.ancien_prix) * 100)));
+  const prixHtml = (v) => v.ancien_prix > v.prix
+    ? `<s class="old-price">${price(v.ancien_prix)}</s> <span class="promo-price">${price(v.prix)}</span>`
+    : price(v.prix);
 
   function buildChips() {
     const counts = {};
     // Une plante compte dans sa catégorie et dans ses rubriques (ex. fleur mellifère et aromatique)
     plants.forEach((p) => categoriesDe(p).forEach((c) => { counts[c] = (counts[c] || 0) + 1; }));
-    // Rubriques par ordre alphabétique, après « Tout le catalogue »
-    const cats = Object.keys(counts).sort((a, b) => a.localeCompare(b, "fr"));
+    // « Promo » juste après « Tout le catalogue », puis les rubriques par ordre alphabétique
+    const cats = Object.keys(counts).sort((a, b) => (b === "Promo") - (a === "Promo") || a.localeCompare(b, "fr"));
     const chip = (value, label, n) => `
-      <button type="button" class="chip" data-cat="${esc(value)}" aria-pressed="${value === currentCat}"
+      <button type="button" class="chip${value === "Promo" ? " chip-promo" : ""}" data-cat="${esc(value)}" aria-pressed="${value === currentCat}"
         style="--c:${value ? catColor(value) : "var(--olive)"}">
-        ${value ? '<span class="dot"></span>' : ""}${esc(label)} <span class="count">${n}</span>
+        ${value === "Promo" ? "🏷️ " : value ? '<span class="dot"></span>' : ""}${esc(label)} <span class="count">${n}</span>
       </button>`;
     els.chips.innerHTML = chip("", "Tout le catalogue", plants.length) +
       cats.map((c) => chip(c, c, counts[c])).join("");
@@ -182,7 +189,7 @@
     box.querySelector(".order-note").hidden = !estRacinesNues(v.format);
     const card = e.target.closest(".card");
     if (card) {
-      card.querySelector(".card-price").textContent = price(v.prix);
+      card.querySelector(".card-price").innerHTML = prixHtml(v);
       const st = card.querySelector(".card-stock");
       st.textContent = v.stock > 0 ? "En stock" : "Rupture";
       st.classList.toggle("out", v.stock <= 0);
@@ -214,19 +221,22 @@
       p.hauteur && `<span class="pill" title="Hauteur">↕ ${esc(p.hauteur)}</span>`,
     ].filter(Boolean).join("");
     const defaut = formatParDefaut(p);
+    const promo = enPromo(p);
+    const pct = remise(p);
     return `
-      <article class="card" data-i="${i}" style="--c:${catColor(p.categorie)}">
+      <article class="card${promo ? " is-promo" : ""}" data-i="${i}" style="--c:${catColor(p.categorie)}">
         <div class="card-media-wrap">
           ${media(p, "card-media")}
           <span class="badge">${esc(p.categorie)}</span>
           ${out ? '<span class="badge out">Épuisé</span>' : ""}
+          ${promo && !out ? `<span class="badge promo">PROMO${pct ? ` −${pct} %` : ""}</span>` : ""}
         </div>
         <div class="card-body">
           <h2 class="card-title"><button type="button" class="card-open">${esc(p.nom)}</button></h2>
           ${p.latin ? `<p class="card-latin">${esc(p.latin)}</p>` : ""}
           <div class="card-meta">${pills}</div>
           <div class="card-footer">
-            <span class="card-price">${price(defaut.prix)}</span>
+            <span class="card-price">${prixHtml(defaut)}</span>
             <span class="card-stock${defaut.stock > 0 ? "" : " out"}">${defaut.stock > 0 ? "En stock" : "Rupture"}</span>
           </div>
           ${orderBox(p)}
@@ -266,13 +276,14 @@
       ["Famille", p.categorie_detail],
     ].filter(([, v]) => v).map(([k, v]) => `<div><dt>${k}</dt><dd>${esc(v)}</dd></div>`).join("");
     const rows = p.variants.map((v) => `
-      <tr><td>${esc(v.format)}</td><td class="price">${price(v.prix)}</td>
+      <tr><td>${esc(v.format)}</td><td class="price">${prixHtml(v)}</td>
       <td>${v.stock > 0 ? `<span class="card-stock">${v.stock} dispo.</span>` : '<span class="card-stock out">Rupture</span>'}</td></tr>`).join("");
 
     els.modalContent.innerHTML = `
       ${gallery}
       <div class="modal-body" style="--c:${catColor(p.categorie)}">
         <span class="badge">${esc(p.categorie)}</span>
+        ${enPromo(p) ? '<span class="badge promo">PROMO</span>' : ""}
         <h2 id="modal-title">${esc(p.nom)}</h2>
         ${p.latin ? `<p class="card-latin">${esc(p.latin)}</p>` : ""}
         <dl class="modal-info-grid">${info}</dl>

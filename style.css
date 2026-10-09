@@ -236,6 +236,16 @@ body {
   box-shadow: 0 2px 6px rgba(0,0,0,.15);
 }
 .badge.out { left: auto; right: 12px; background: rgba(45, 43, 14, .78); }
+/* Promotions : bien visibles (bouton, bandeau, carte, prix barré) */
+.badge.promo { left: auto; right: 12px; background: #c0392b; font-size: .8rem; letter-spacing: .06em; }
+.modal-body .badge.promo { margin-left: 6px; }
+.card.is-promo { border: 2px solid #c0392b; box-shadow: 0 6px 18px rgba(192, 57, 43, .18); }
+.old-price { font-size: .8em; font-weight: 600; color: var(--muted); margin-right: 4px; }
+.promo-price { color: #c0392b; }
+.chip.chip-promo { background: #c0392b; border-color: #c0392b; color: #fff; }
+.chip.chip-promo .count { color: #ffe3df; }
+.chip.chip-promo:hover { background: #a93226; border-color: #a93226; }
+.chip.chip-promo[aria-pressed="true"] { background: #8e2a20; border-color: #8e2a20; box-shadow: 0 0 0 3px rgba(192, 57, 43, .25); }
 .card-body { padding: 16px 18px 18px; display: flex; flex-direction: column; gap: 4px; flex: 1; }
 .card-title {
   font-family: var(--font-title);
