@@ -94,12 +94,12 @@
     "rubriques": [],
     "variants": [
       {
-        "format": "0.5L (1 caïeux)",
+        "format": "0.5L",
         "prix": 5.0,
         "stock": 3
       },
       {
-        "format": "1 L (3 caïeux)",
+        "format": "1 L",
         "prix": 9.0,
         "stock": 0
       }
@@ -1991,12 +1991,12 @@
     "rubriques": [],
     "variants": [
       {
-        "format": "3 bulbilles",
+        "format": "3",
         "prix": 7.0,
         "stock": 0
       },
       {
-        "format": "7 bulbilles",
+        "format": "7",
         "prix": 15.0,
         "stock": 0
       }
@@ -2021,12 +2021,12 @@
     "rubriques": [],
     "variants": [
       {
-        "format": "1 bulbille",
+        "format": "1",
         "prix": 5.0,
         "stock": 4
       },
       {
-        "format": "3 bulbilles",
+        "format": "3",
         "prix": 8.0,
         "stock": 4
       }
