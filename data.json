@@ -2246,7 +2246,9 @@
     "latin": "Zanthoxylum beecheyanum",
     "categorie": "Aromatique",
     "categorie_detail": "Arbres à vertus culinaires",
-    "rubriques": [],
+    "rubriques": [
+      "Fruitier"
+    ],
     "variants": [
       {
         "format": "5 L",
@@ -2271,7 +2273,9 @@
     "latin": "Zanthoxylum coreanum",
     "categorie": "Fruitier",
     "categorie_detail": "Arbres fruitiers et à baies; Arbres mellifères",
-    "rubriques": [],
+    "rubriques": [
+      "Aromatique"
+    ],
     "variants": [
       {
         "format": "3L",
@@ -2296,7 +2300,9 @@
     "latin": "Zanthoxylum schinifolium",
     "categorie": "Fruitier",
     "categorie_detail": "Arbres fruitiers et à baies; Arbres mellifères",
-    "rubriques": [],
+    "rubriques": [
+      "Aromatique"
+    ],
     "variants": [
       {
         "format": "3L",
@@ -2321,7 +2327,9 @@
     "latin": "Zanthoxylum armatum",
     "categorie": "Fruitier",
     "categorie_detail": "Arbres fruitiers et à baies; Arbres mellifères",
-    "rubriques": [],
+    "rubriques": [
+      "Aromatique"
+    ],
     "variants": [
       {
         "format": "3L",
@@ -2346,7 +2354,9 @@
     "latin": "Zanthoxylum piperitum",
     "categorie": "Aromatique",
     "categorie_detail": "Arbres à vertus culinaires",
-    "rubriques": [],
+    "rubriques": [
+      "Fruitier"
+    ],
     "variants": [
       {
         "format": "3L",
