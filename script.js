@@ -10,6 +10,7 @@
     "Aromatique": "#3f6b4a",
     "Fleurs": "#b0466e",
     "Exotique": "#1f7a7a",
+    "Promo": "#c0392b",
   };
   const catColor = (c) => CAT_COLORS[c] || "#6b7928";
 

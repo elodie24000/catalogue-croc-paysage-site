@@ -876,7 +876,7 @@
       },
       {
         "format": "6L",
-        "prix": 52.0,
+        "prix": 48.0,
         "stock": 0
       },
       {
@@ -1676,7 +1676,7 @@
     "variants": [
       {
         "format": "6L",
-        "prix": 52.0,
+        "prix": 48.0,
         "stock": 6
       },
       {
@@ -1685,7 +1685,7 @@
         "stock": 0
       }
     ],
-    "prix_min": 52.0,
+    "prix_min": 48.0,
     "stock_total": 6,
     "hauteur": "4 m",
     "rusticite": "-10°C",
@@ -1708,7 +1708,7 @@
     "variants": [
       {
         "format": "6L",
-        "prix": 52.0,
+        "prix": 48.0,
         "stock": 7
       },
       {
@@ -1717,7 +1717,7 @@
         "stock": 0
       }
     ],
-    "prix_min": 52.0,
+    "prix_min": 48.0,
     "stock_total": 7,
     "hauteur": "4 m",
     "rusticite": "-10°C",
@@ -1740,7 +1740,7 @@
     "variants": [
       {
         "format": "6L",
-        "prix": 52.0,
+        "prix": 48.0,
         "stock": 8
       },
       {
@@ -1749,7 +1749,7 @@
         "stock": 0
       }
     ],
-    "prix_min": 52.0,
+    "prix_min": 48.0,
     "stock_total": 8,
     "hauteur": "4 m",
     "rusticite": "-10°C",
@@ -1838,16 +1838,23 @@
     "latin": "Morus alba",
     "categorie": "Fruitier",
     "categorie_detail": "Arbres fruitiers et à baies",
-    "rubriques": [],
+    "rubriques": [
+      "Promo"
+    ],
     "variants": [
       {
         "format": "Racines nues (2 ans, 1.60 m)",
         "prix": 14.0,
         "stock": 0
+      },
+      {
+        "format": "10 L",
+        "prix": 22.0,
+        "stock": 2
       }
     ],
     "prix_min": 14.0,
-    "stock_total": 0,
+    "stock_total": 2,
     "hauteur": "5-10 m",
     "rusticite": "-20°C",
     "rusticite_val": -20,
@@ -2076,7 +2083,7 @@
     "variants": [
       {
         "format": "6L",
-        "prix": 52.0,
+        "prix": 48.0,
         "stock": 8
       },
       {
@@ -2085,7 +2092,7 @@
         "stock": 0
       }
     ],
-    "prix_min": 52.0,
+    "prix_min": 48.0,
     "stock_total": 8,
     "hauteur": "5 m",
     "rusticite": "-11°C",
