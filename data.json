@@ -549,7 +549,7 @@
       },
       {
         "format": "3L",
-        "prix": 20.0,
+        "prix": 16.0,
         "stock": 3
       }
     ],
@@ -582,7 +582,7 @@
       },
       {
         "format": "3L",
-        "prix": 20.0,
+        "prix": 16.0,
         "stock": 0
       },
       {
@@ -1178,11 +1178,11 @@
     "variants": [
       {
         "format": "3L",
-        "prix": 14.0,
+        "prix": 15.0,
         "stock": 12
       }
     ],
-    "prix_min": 14.0,
+    "prix_min": 15.0,
     "stock_total": 12,
     "hauteur": "3 m",
     "rusticite": "-18°C",
