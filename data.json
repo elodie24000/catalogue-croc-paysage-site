@@ -1838,9 +1838,7 @@
     "latin": "Morus alba",
     "categorie": "Fruitier",
     "categorie_detail": "Arbres fruitiers et à baies",
-    "rubriques": [
-      "Promo"
-    ],
+    "rubriques": [],
     "variants": [
       {
         "format": "Racines nues (2 ans, 1.60 m)",
@@ -1849,9 +1847,8 @@
       },
       {
         "format": "10 L",
-        "prix": 22.0,
-        "stock": 0,
-        "ancien_prix": 40.0
+        "prix": 40.0,
+        "stock": 0
       }
     ],
     "prix_min": 14.0,
