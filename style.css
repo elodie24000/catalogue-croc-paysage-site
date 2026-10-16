@@ -1069,3 +1069,39 @@ button.cal-day.selected { background: var(--olive); border-color: var(--olive); 
 .slot.taken small { text-decoration: none; font-size: .7rem; font-weight: 700; color: var(--stem); }
 .cal-day.full { background: var(--cream-deep); color: #b9b29a; text-decoration: line-through; cursor: help; }
 .cal-legend .dot.full { background: var(--cream-deep); border: 1.5px solid #b9b29a; }
+
+/* ---------- Bandeau du haut sur téléphone : une seule ligne, les messages se relaient ---------- */
+@media (max-width: 640px) {
+  .order-banner-inner {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 0;
+    padding: 7px 16px;
+    font-size: .8rem;
+    line-height: 1.2;
+    overflow: hidden;
+  }
+  .ob-item {
+    grid-area: 1 / 1;
+    white-space: nowrap;
+    opacity: 0;
+    animation: ob-relais 12s infinite;
+  }
+  .ob-item svg { width: 15px; height: 15px; flex: 0 0 auto; }
+  .ob-item:nth-child(2) { animation-delay: 3s; }
+  .ob-item:nth-child(3) { animation-delay: 6s; }
+  .ob-item:nth-child(4) { animation-delay: 9s; }
+}
+@keyframes ob-relais {
+  0%   { opacity: 0; transform: translateY(4px); }
+  4%   { opacity: 1; transform: none; }
+  22%  { opacity: 1; transform: none; }
+  25%  { opacity: 0; transform: translateY(-4px); }
+  100% { opacity: 0; }
+}
+/* Sans animation (réglage d'accessibilité du téléphone) : les messages restent sur une ligne, à faire glisser */
+@media (max-width: 640px) and (prefers-reduced-motion: reduce) {
+  .order-banner-inner { display: flex; justify-content: flex-start; gap: 18px; overflow-x: auto; scrollbar-width: none; }
+  .ob-item { opacity: 1; animation: none; }
+}
