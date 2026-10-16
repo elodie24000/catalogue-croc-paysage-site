@@ -544,16 +544,16 @@
     "variants": [
       {
         "format": "1,5L",
-        "prix": 15.0,
-        "stock": 3
+        "prix": 14.0,
+        "stock": 0
       },
       {
         "format": "3L",
         "prix": 20.0,
-        "stock": 0
+        "stock": 3
       }
     ],
-    "prix_min": 15.0,
+    "prix_min": 14.0,
     "stock_total": 3,
     "hauteur": "1.5 x 1 m, port buissonnant",
     "rusticite": "-15°C",
@@ -577,7 +577,7 @@
     "variants": [
       {
         "format": "1,5L",
-        "prix": 15.0,
+        "prix": 14.0,
         "stock": 0
       },
       {
@@ -591,7 +591,7 @@
         "stock": 3
       }
     ],
-    "prix_min": 15.0,
+    "prix_min": 14.0,
     "stock_total": 3,
     "hauteur": "1.5 x 1 m, port buissonnant",
     "rusticite": "-15°C",
