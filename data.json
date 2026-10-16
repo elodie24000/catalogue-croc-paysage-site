@@ -96,7 +96,7 @@
       {
         "format": "0.5L",
         "prix": 5.0,
-        "stock": 3
+        "stock": 0
       },
       {
         "format": "1 L",
@@ -105,7 +105,7 @@
       }
     ],
     "prix_min": 5.0,
-    "stock_total": 3,
+    "stock_total": 0,
     "hauteur": "60/90 cm",
     "rusticite": "-18°C",
     "rusticite_val": -18,
@@ -545,7 +545,7 @@
       {
         "format": "1,5L",
         "prix": 15.0,
-        "stock": 4
+        "stock": 3
       },
       {
         "format": "3L",
@@ -554,7 +554,7 @@
       }
     ],
     "prix_min": 15.0,
-    "stock_total": 4,
+    "stock_total": 3,
     "hauteur": "1.5 x 1 m, port buissonnant",
     "rusticite": "-15°C",
     "rusticite_val": -15,
@@ -588,11 +588,11 @@
       {
         "format": "5L",
         "prix": 30.0,
-        "stock": 4
+        "stock": 3
       }
     ],
     "prix_min": 15.0,
-    "stock_total": 4,
+    "stock_total": 3,
     "hauteur": "1.5 x 1 m, port buissonnant",
     "rusticite": "-15°C",
     "rusticite_val": -15,
@@ -820,11 +820,11 @@
       {
         "format": "0.5L",
         "prix": 5.0,
-        "stock": 20
+        "stock": 19
       }
     ],
     "prix_min": 5.0,
-    "stock_total": 20,
+    "stock_total": 19,
     "hauteur": "30 cm",
     "rusticite": "-12°C",
     "rusticite_val": -12,
@@ -1029,11 +1029,11 @@
       {
         "format": "0.5L",
         "prix": 5.0,
-        "stock": 2
+        "stock": 0
       }
     ],
     "prix_min": 5.0,
-    "stock_total": 2,
+    "stock_total": 0,
     "hauteur": "1 m",
     "rusticite": "-20°C",
     "rusticite_val": -20,
@@ -1179,11 +1179,11 @@
       {
         "format": "3L",
         "prix": 14.0,
-        "stock": 15
+        "stock": 12
       }
     ],
     "prix_min": 14.0,
-    "stock_total": 15,
+    "stock_total": 12,
     "hauteur": "3 m",
     "rusticite": "-18°C",
     "rusticite_val": -18,
@@ -1452,11 +1452,11 @@
       {
         "format": "5L",
         "prix": 42.0,
-        "stock": 3
+        "stock": 2
       }
     ],
     "prix_min": 42.0,
-    "stock_total": 3,
+    "stock_total": 2,
     "hauteur": "6-8 m",
     "rusticite": "-15°C",
     "rusticite_val": -15,
@@ -1520,11 +1520,11 @@
       {
         "format": "10L",
         "prix": 45.0,
-        "stock": 8
+        "stock": 7
       }
     ],
     "prix_min": 15.0,
-    "stock_total": 8,
+    "stock_total": 7,
     "hauteur": "Liane, 5 m",
     "rusticite": "-25°C",
     "rusticite_val": -25,
@@ -1552,11 +1552,11 @@
       {
         "format": "10L",
         "prix": 45.0,
-        "stock": 8
+        "stock": 7
       }
     ],
     "prix_min": 15.0,
-    "stock_total": 8,
+    "stock_total": 7,
     "hauteur": "Liane, 5 m",
     "rusticite": "-25°C",
     "rusticite_val": -25,
@@ -1586,11 +1586,11 @@
       {
         "format": "10L",
         "prix": 45.0,
-        "stock": 5
+        "stock": 4
       }
     ],
     "prix_min": 15.0,
-    "stock_total": 5,
+    "stock_total": 4,
     "hauteur": "Liane, 5 m",
     "rusticite": "-25°C",
     "rusticite_val": -25,
@@ -1741,7 +1741,7 @@
       {
         "format": "6L",
         "prix": 48.0,
-        "stock": 8
+        "stock": 7
       },
       {
         "format": "10L",
@@ -1750,7 +1750,7 @@
       }
     ],
     "prix_min": 48.0,
-    "stock_total": 8,
+    "stock_total": 7,
     "hauteur": "4 m",
     "rusticite": "-10°C",
     "rusticite_val": -10,
@@ -1850,12 +1850,12 @@
       {
         "format": "10 L",
         "prix": 22.0,
-        "stock": 2,
+        "stock": 0,
         "ancien_prix": 40.0
       }
     ],
     "prix_min": 14.0,
-    "stock_total": 2,
+    "stock_total": 0,
     "hauteur": "5-10 m",
     "rusticite": "-20°C",
     "rusticite_val": -20,
@@ -1905,7 +1905,7 @@
       {
         "format": "1.5 L",
         "prix": 7.0,
-        "stock": 1
+        "stock": 0
       },
       {
         "format": "3 L",
@@ -1914,7 +1914,7 @@
       }
     ],
     "prix_min": 7.0,
-    "stock_total": 5,
+    "stock_total": 4,
     "hauteur": "3 x 1 m",
     "rusticite": "Grande",
     "rusticite_val": null,
@@ -2023,7 +2023,7 @@
       {
         "format": "1",
         "prix": 5.0,
-        "stock": 4
+        "stock": 2
       },
       {
         "format": "3",
@@ -2032,7 +2032,7 @@
       }
     ],
     "prix_min": 5.0,
-    "stock_total": 8,
+    "stock_total": 6,
     "hauteur": "0.3 à 0.7 m",
     "rusticite": "-15°C",
     "rusticite_val": -15,
@@ -2085,7 +2085,7 @@
       {
         "format": "6L",
         "prix": 48.0,
-        "stock": 8
+        "stock": 7
       },
       {
         "format": "10L",
@@ -2094,7 +2094,7 @@
       }
     ],
     "prix_min": 48.0,
-    "stock_total": 8,
+    "stock_total": 7,
     "hauteur": "5 m",
     "rusticite": "-11°C",
     "rusticite_val": -11,
@@ -2117,11 +2117,11 @@
       {
         "format": "3L",
         "prix": 17.0,
-        "stock": 8
+        "stock": 7
       }
     ],
     "prix_min": 17.0,
-    "stock_total": 8,
+    "stock_total": 7,
     "hauteur": "15 m (12 m d'envergure)",
     "rusticite": "-20°C",
     "rusticite_val": -20,
@@ -2146,11 +2146,11 @@
       {
         "format": "0.5L",
         "prix": 5.0,
-        "stock": 20
+        "stock": 19
       }
     ],
     "prix_min": 5.0,
-    "stock_total": 20,
+    "stock_total": 19,
     "hauteur": "30 cm",
     "rusticite": "-18°C",
     "rusticite_val": -18,
@@ -2176,11 +2176,11 @@
       {
         "format": "6 L",
         "prix": 24.0,
-        "stock": 8
+        "stock": 7
       }
     ],
     "prix_min": 17.0,
-    "stock_total": 18,
+    "stock_total": 17,
     "hauteur": "15-25 m",
     "rusticite": "Non précisée",
     "rusticite_val": null,
@@ -2232,11 +2232,11 @@
       {
         "format": "0.7L",
         "prix": 7.0,
-        "stock": 5
+        "stock": 1
       }
     ],
     "prix_min": 7.0,
-    "stock_total": 5,
+    "stock_total": 1,
     "hauteur": "0.3 m",
     "rusticite": "-15°C",
     "rusticite_val": -15,
@@ -2261,11 +2261,11 @@
       {
         "format": "5 L",
         "prix": 32.0,
-        "stock": 4
+        "stock": 2
       }
     ],
     "prix_min": 32.0,
-    "stock_total": 4,
+    "stock_total": 2,
     "hauteur": "1 à 2 m",
     "rusticite": "-10°C",
     "rusticite_val": -10,
@@ -2369,12 +2369,12 @@
       {
         "format": "3L",
         "prix": 15.0,
-        "stock": 10
+        "stock": 9
       },
       {
         "format": "5L",
         "prix": 23.0,
-        "stock": 4
+        "stock": 3
       },
       {
         "format": "Racines nues",
@@ -2383,7 +2383,7 @@
       }
     ],
     "prix_min": 12.0,
-    "stock_total": 14,
+    "stock_total": 12,
     "hauteur": "3-4 m",
     "rusticite": "-23°C",
     "rusticite_val": -23,
@@ -2407,7 +2407,7 @@
       {
         "format": "3 L, 60 cm",
         "prix": 13.0,
-        "stock": 10
+        "stock": 9
       },
       {
         "format": "Racines nues, 1.60 à 1.80 m",
@@ -2416,7 +2416,7 @@
       }
     ],
     "prix_min": 12.0,
-    "stock_total": 40,
+    "stock_total": 39,
     "hauteur": "3 à 5 m",
     "rusticite": "-20°C",
     "rusticite_val": -20,
