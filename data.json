@@ -2169,18 +2169,18 @@
     "rubriques": [],
     "variants": [
       {
-        "format": "3 L (3 ans)",
+        "format": "3 L",
         "prix": 17.0,
         "stock": 10
       },
       {
         "format": "6 L",
-        "prix": 24.0,
-        "stock": 7
+        "prix": 32.0,
+        "stock": 9
       }
     ],
     "prix_min": 17.0,
-    "stock_total": 17,
+    "stock_total": 19,
     "hauteur": "15-25 m",
     "rusticite": "Non précisée",
     "rusticite_val": null,
