@@ -114,7 +114,7 @@
     "feuillage": "Caduc",
     "origine": "Europe de l'Est (Ail x Poireau)",
     "images": [
-      "https://cdn.shopify.com/s/files/1/0850/6703/9054/files/ailelephant.jpg?v=1723638385"
+      "assets/photos/shopify/ailelephant.jpg"
     ],
     "fiche_url": "https://crocpaysage.com/products/ail-elephant"
   },
@@ -141,8 +141,8 @@
     "feuillage": "Semi-persistant",
     "origine": "Corée, Chine",
     "images": [
-      "https://cdn.shopify.com/s/files/1/0850/6703/9054/files/akebia2.jpg?v=1725189230",
-      "https://cdn.shopify.com/s/files/1/0850/6703/9054/files/AKABIA_QUINATA_ALBA.jpg?v=1724516122",
+      "assets/photos/shopify/akebia2.jpg",
+      "assets/photos/shopify/akabia_quinata_alba.jpg",
       "https://drive.google.com/thumbnail?id=1EZmL-DYvbWfDvI5XCE1Ti4eYzLywex8U&sz=w1200"
     ],
     "fiche_url": "https://crocpaysage.com/products/akebie-a-5-feuilles-blanche-vigne-chocolat"
@@ -180,7 +180,7 @@
     "feuillage": "Caduc, rouge en automne",
     "origine": "Canada, Etats-Unis",
     "images": [
-      "https://cdn.shopify.com/s/files/1/0850/6703/9054/files/Amelanchier_canadensis.jpg?v=1723655352",
+      "assets/photos/shopify/amelanchier_canadensis.jpg",
       "https://drive.google.com/thumbnail?id=1Z5wxyYhA-j9FfI4e-YutS2bZXo-X2kIr&sz=w1200",
       "https://drive.google.com/thumbnail?id=1x1Jpn6XJcFYzcLJYYsM74vgH1yTXLVQK&sz=w1200"
     ],
@@ -239,8 +239,8 @@
     "feuillage": "Caduc, jeunes pousses pourpres",
     "origine": "Tibet, Bhoutan",
     "images": [
-      "https://cdn.shopify.com/s/files/1/0850/6703/9054/files/20240804_115858.jpg?v=1723657382",
-      "https://cdn.shopify.com/s/files/1/0850/6703/9054/files/IMG_20240825_132022.jpg?v=1725204058",
+      "assets/photos/shopify/20240804_115858.jpg",
+      "assets/photos/shopify/img_20240825_132022.jpg",
       "https://drive.google.com/thumbnail?id=17w6r--CpE8Gb5-MVkYkJ5_f8HbxSzSWC&sz=w1200"
     ],
     "fiche_url": "https://crocpaysage.com/products/arbre-aux-faisans-pourpres"
@@ -278,7 +278,7 @@
     "feuillage": "Caduc, vert foncé",
     "origine": "Sud-Ouest Chine",
     "images": [
-      "https://cdn.shopify.com/s/files/1/0850/6703/9054/files/arbreamieladulte.jpg?v=1724511946",
+      "assets/photos/shopify/arbreamieladulte.jpg",
       "https://drive.google.com/thumbnail?id=1Sfj6rl7lJEjJ-TTc6jnMfVWrjFzR6nl7&sz=w1200",
       "https://drive.google.com/thumbnail?id=1Kj7lpdDUFM04yYPRx4X_iarvuZjI_gU_&sz=w1200"
     ],
@@ -317,7 +317,7 @@
     "feuillage": "Caduc",
     "origine": "Chine",
     "images": [
-      "https://cdn.shopify.com/s/files/1/0850/6703/9054/files/cedrele_de_chine_croc_paysage.jpg?v=1725188718",
+      "assets/photos/shopify/cedrele_de_chine_croc_paysage.jpg",
       "https://drive.google.com/thumbnail?id=1afPb78oJKnoMLvve6fbQtv_9lXF6VUrp&sz=w1200",
       "https://drive.google.com/thumbnail?id=1B9tE2L3kHmA8QWG4Rd6f3n8pitn3WbpM&sz=w1200"
     ],
@@ -351,7 +351,7 @@
     "feuillage": "Caduc, vert puis orange/rouge en automne",
     "origine": "Amérique du Nord",
     "images": [
-      "https://cdn.shopify.com/s/files/1/0850/6703/9054/files/aronianero2.jpg?v=1723993166",
+      "assets/photos/shopify/aronianero2.jpg",
       "https://drive.google.com/thumbnail?id=1Y911CqAu9cj2JimjuXy8E_a3oPMB5VMj&sz=w1200",
       "https://drive.google.com/thumbnail?id=1wUOnJLag6lK1eYsYMOaaLT0zq6W5oKYI&sz=w1200"
     ],
@@ -385,8 +385,8 @@
     "feuillage": "Caduc",
     "origine": "Etats-Unis",
     "images": [
-      "https://cdn.shopify.com/s/files/1/0850/6703/9054/files/aseminiertrilobaarbremoyen_682df925-e0b5-41ca-858f-d60d22a8cfb9.jpg?v=1723993686",
-      "https://cdn.shopify.com/s/files/1/0850/6703/9054/files/aseminier_triloba_-_fleurs.jpg?v=1723994251",
+      "assets/photos/shopify/aseminiertrilobaarbremoyen_682df925-e0b5-41ca-858f-d60d22a8cfb9.jpg",
+      "assets/photos/shopify/aseminier_triloba_-_fleurs.jpg",
       "https://drive.google.com/thumbnail?id=1jfQWbHj1ZdDqFaLgB8JewSAAY2cexHlP&sz=w1200"
     ],
     "fiche_url": "https://crocpaysage.com/products/aseminier"
@@ -504,8 +504,8 @@
     "feuillage": "Vert",
     "origine": "Chine",
     "images": [
-      "https://cdn.shopify.com/s/files/1/0850/6703/9054/files/goji.jpg?v=1724430545",
-      "https://cdn.shopify.com/s/files/1/0850/6703/9054/files/goji-inde.jpg?v=1724430506",
+      "assets/photos/shopify/goji.jpg",
+      "assets/photos/shopify/goji-inde.jpg",
       "https://drive.google.com/thumbnail?id=1gG6yTV8U-B9p29zLmSxxoOZU1zNzs-xq&sz=w1200"
     ],
     "fiche_url": "https://crocpaysage.com/products/baie-de-goji"
@@ -563,7 +563,7 @@
     "feuillage": "Caduc, jaune en hiver",
     "origine": "Balkans",
     "images": [
-      "https://cdn.shopify.com/s/files/1/0850/6703/9054/files/fruitbaiedemai.jpg?v=1724053751",
+      "assets/photos/shopify/fruitbaiedemai.jpg",
       "https://drive.google.com/thumbnail?id=1bMxv3rFAZIE9xY5hq3L60xi0f9g25U_l&sz=w1200"
     ],
     "fiche_url": "https://crocpaysage.com/products/baie-de-mai-bleu-velours-chevrefeuille-nain"
@@ -601,7 +601,7 @@
     "feuillage": "Caduc, jaune en hiver",
     "origine": "Balkans",
     "images": [
-      "https://cdn.shopify.com/s/files/1/0850/6703/9054/files/fruitbaiedemai.jpg?v=1724053751",
+      "assets/photos/shopify/fruitbaiedemai.jpg",
       "https://drive.google.com/thumbnail?id=1bMxv3rFAZIE9xY5hq3L60xi0f9g25U_l&sz=w1200"
     ],
     "fiche_url": "https://crocpaysage.com/products/baie-de-mai-bleu-velours-chevrefeuille-nain"
@@ -634,8 +634,8 @@
     "feuillage": "Caduc",
     "origine": "Sibérie",
     "images": [
-      "https://cdn.shopify.com/s/files/1/0850/6703/9054/files/caragana-arborescens.jpg?v=1724071864",
-      "https://cdn.shopify.com/s/files/1/0850/6703/9054/files/caraganier.jpg?v=1724071384",
+      "assets/photos/shopify/caragana-arborescens.jpg",
+      "assets/photos/shopify/caraganier.jpg",
       "https://drive.google.com/thumbnail?id=1UsIDpx5aKsed7zaGuX4ABCTreUBd_RMh&sz=w1200"
     ],
     "fiche_url": "https://crocpaysage.com/products/caraganier-de-siberie"
@@ -693,8 +693,8 @@
     "feuillage": "Persistant",
     "origine": "Eurasie",
     "images": [
-      "https://cdn.shopify.com/s/files/1/0850/6703/9054/files/chalefebbing.jpg?v=1724074338",
-      "https://cdn.shopify.com/s/files/1/0850/6703/9054/files/chalef-de-ebbing-fruit.jpg?v=1724074419",
+      "assets/photos/shopify/chalefebbing.jpg",
+      "assets/photos/shopify/chalef-de-ebbing-fruit.jpg",
       "https://drive.google.com/thumbnail?id=1-vRMQpkaO3FZ991onTVq36Bki4kIMvGM&sz=w1200"
     ],
     "fiche_url": "https://crocpaysage.com/products/chalef-de-ebbing"
@@ -722,7 +722,7 @@
     "feuillage": "Disparaît l'hiver, repart de la souche",
     "origine": "Mexique, Guatemala",
     "images": [
-      "https://cdn.shopify.com/s/files/1/0850/6703/9054/files/christophine.jpg?v=1723646165"
+      "assets/photos/shopify/christophine.jpg"
     ],
     "fiche_url": "https://crocpaysage.com/products/chayotte-christophine-chouchou"
   },
@@ -754,7 +754,7 @@
     "feuillage": "Semi-persistant",
     "origine": "Europe",
     "images": [
-      "https://cdn.shopify.com/s/files/1/0850/6703/9054/files/chou-perpetuel-daubenton.jpg?v=1723991893"
+      "assets/photos/shopify/chou-perpetuel-daubenton.jpg"
     ],
     "fiche_url": "https://crocpaysage.com/products/chou-daubenton"
   },
@@ -858,7 +858,7 @@
     "feuillage": "Persistant",
     "origine": "Asie du Sud-Est",
     "images": [
-      "https://cdn.shopify.com/s/files/1/0850/6703/9054/files/citronnellemadagascar.jpg?v=1723653512"
+      "assets/photos/shopify/citronnellemadagascar.jpg"
     ],
     "fiche_url": "https://crocpaysage.com/products/citronnelle-de-madagascar"
   },
@@ -895,7 +895,7 @@
     "feuillage": "Persistant",
     "origine": "Sud de la Chine",
     "images": [
-      "https://cdn.shopify.com/s/files/1/0850/6703/9054/files/citrus_kumquat_meiva.jpg?v=1767554330"
+      "assets/photos/shopify/citrus_kumquat_meiva.jpg"
     ],
     "fiche_url": "https://crocpaysage.com/products/citrus-fortunella-meiwa"
   },
@@ -927,8 +927,8 @@
     "feuillage": "Caduc",
     "origine": "Europe, Asie occidentale",
     "images": [
-      "https://cdn.shopify.com/s/files/1/0850/6703/9054/files/consoudegrosplan_2d3f36c6-df34-4061-90ed-5a2a92d47eb9.jpg?v=1723648110",
-      "https://cdn.shopify.com/s/files/1/0850/6703/9054/files/racine-_consoude.jpg?v=1731947933"
+      "assets/photos/shopify/consoudegrosplan_2d3f36c6-df34-4061-90ed-5a2a92d47eb9.jpg",
+      "assets/photos/shopify/racine-_consoude.jpg"
     ],
     "fiche_url": "https://crocpaysage.com/products/consoude"
   },
@@ -955,7 +955,7 @@
     "feuillage": "Persistant",
     "origine": "Vietnam",
     "images": [
-      "https://cdn.shopify.com/s/files/1/0850/6703/9054/files/CORIANDREVIETNAMIENNE.jpg?v=1723645663"
+      "assets/photos/shopify/coriandrevietnamienne.jpg"
     ],
     "fiche_url": "https://crocpaysage.com/products/coriandre-vietnamienne"
   },
@@ -1042,7 +1042,7 @@
     "feuillage": "Semi-persistant",
     "origine": "Asie occidentale (Iran, Afghanistan)",
     "images": [
-      "https://cdn.shopify.com/s/files/1/0850/6703/9054/files/ache-des-montagnes-celeri-perpetuel.jpg?v=1723647865"
+      "assets/photos/shopify/ache-des-montagnes-celeri-perpetuel.jpg"
     ],
     "fiche_url": "https://crocpaysage.com/products/celeri-perpetuel-liveche-ache-des-montagnes"
   },
@@ -1079,8 +1079,8 @@
     "feuillage": "Persistant",
     "origine": "Argentine, Chili",
     "images": [
-      "https://cdn.shopify.com/s/files/1/0850/6703/9054/files/feijoa-fleur.jpg?v=1724094676",
-      "https://cdn.shopify.com/s/files/1/0850/6703/9054/files/feijoa_fruit_ouvert.jpg?v=1724094756",
+      "assets/photos/shopify/feijoa-fleur.jpg",
+      "assets/photos/shopify/feijoa_fruit_ouvert.jpg",
       "https://drive.google.com/thumbnail?id=1aickV-zTycsHGtSYxIAq92vA6xucaEZW&sz=w1200"
     ],
     "fiche_url": "https://crocpaysage.com/products/feijoa-goyave-de-montevideo"
@@ -1108,7 +1108,7 @@
     "feuillage": "Caduc",
     "origine": "Vaucluse, pied du Mont Ventoux (Caromb)",
     "images": [
-      "https://cdn.shopify.com/s/files/1/0850/6703/9054/files/figuiers.jpg?v=1724503194",
+      "assets/photos/shopify/figuiers.jpg",
       "https://drive.google.com/thumbnail?id=1TOQrQN7Tdpx5pK2PMzC1HSo8vocVFumX&sz=w1200",
       "https://drive.google.com/thumbnail?id=1c66pHDS6YptjPPiOhNcYvXnoCjF6eXBz&sz=w1200"
     ],
@@ -1137,7 +1137,7 @@
     "feuillage": "Caduc",
     "origine": "Portugal",
     "images": [
-      "https://cdn.shopify.com/s/files/1/0850/6703/9054/files/ficus-portogalo.jpg?v=1725205275"
+      "assets/photos/shopify/ficus-portogalo.jpg"
     ],
     "fiche_url": "https://crocpaysage.com/products/figuier-del-portogallo-ou-long-du-portugal"
   },
@@ -1164,7 +1164,7 @@
     "feuillage": "Caduc",
     "origine": "Potentiellement Japon (Hirta du Japon)",
     "images": [
-      "https://cdn.shopify.com/s/files/1/0850/6703/9054/files/figuierlapastillere.jpg?v=1724420875",
+      "assets/photos/shopify/figuierlapastillere.jpg",
       "https://drive.google.com/thumbnail?id=1LK4CMJzjyYjN009XWBa5-YfWYaa8Vv1f&sz=w1200"
     ],
     "fiche_url": "https://crocpaysage.com/products/figuier-la-pastillere-ou-ronde-de-bordeaux"
@@ -1192,8 +1192,8 @@
     "feuillage": "Semi-caduc, vert",
     "origine": "Brésil",
     "images": [
-      "https://cdn.shopify.com/s/files/1/0850/6703/9054/files/fushiareitzii.jpg?v=1724421625",
-      "https://cdn.shopify.com/s/files/1/0850/6703/9054/files/fuchsia-reitzii_fruits.jpg?v=1724421682",
+      "assets/photos/shopify/fushiareitzii.jpg",
+      "assets/photos/shopify/fuchsia-reitzii_fruits.jpg",
       "https://drive.google.com/thumbnail?id=10jI5pJtX9NEPhUuKWorOQi_zrax6HTpE&sz=w1200"
     ],
     "fiche_url": "https://crocpaysage.com/products/fuchsia-reitzii-royal"
@@ -1226,7 +1226,7 @@
     "feuillage": "Caduc",
     "origine": "Régions méditerranéennes et Asie centrale",
     "images": [
-      "https://cdn.shopify.com/s/files/1/0850/6703/9054/files/vitexagnus.jpg?v=1724513033"
+      "assets/photos/shopify/vitexagnus.jpg"
     ],
     "fiche_url": "https://crocpaysage.com/products/gatillier-arbre-aux-poivres-poivre-des-moines"
   },
@@ -1319,8 +1319,8 @@
     "feuillage": "Caduc, vert puis jaune à l'automne",
     "origine": "Sud de la Chine",
     "images": [
-      "https://cdn.shopify.com/s/files/1/0850/6703/9054/files/Ginkgo_Biloba.jpg?v=1725203779",
-      "https://cdn.shopify.com/s/files/1/0850/6703/9054/files/gingko_branche_et_feuille.jpg?v=1725203721"
+      "assets/photos/shopify/ginkgo_biloba.jpg",
+      "assets/photos/shopify/gingko_branche_et_feuille.jpg"
     ],
     "fiche_url": "https://crocpaysage.com/products/ginkgo-biloba-arbres-aux-40-ecus"
   },
@@ -1352,8 +1352,8 @@
     "feuillage": "Caduc",
     "origine": "Amérique du Nord",
     "images": [
-      "https://cdn.shopify.com/s/files/1/0850/6703/9054/files/glycine_tubereuse_croc_paysage.jpg?v=1725189040",
-      "https://cdn.shopify.com/s/files/1/0850/6703/9054/files/glycine_tubereuse_2_croc_paysage.jpg?v=1725189117"
+      "assets/photos/shopify/glycine_tubereuse_croc_paysage.jpg",
+      "assets/photos/shopify/glycine_tubereuse_2_croc_paysage.jpg"
     ],
     "fiche_url": "https://crocpaysage.com/products/glycine-tubereuse-haricot-patate"
   },
@@ -1438,7 +1438,7 @@
     "feuillage": "Caduc",
     "origine": "Amérique du Nord",
     "images": [
-      "https://cdn.shopify.com/s/files/1/0850/6703/9054/files/helianthi.jpg?v=1723648627"
+      "assets/photos/shopify/helianthi.jpg"
     ],
     "fiche_url": "https://crocpaysage.com/products/helianthi"
   },
@@ -1466,7 +1466,7 @@
     "origine": "Chine",
     "images": [
       "assets/photos/jujubier-albatera.jpg",
-      "https://cdn.shopify.com/s/files/1/0850/6703/9054/files/jujubesfruits.jpg?v=1767561833",
+      "assets/photos/shopify/jujubesfruits.jpg",
       "https://drive.google.com/thumbnail?id=14DUa3A3n8MfwH8FWVVgVoCo4ByH_PL3k&sz=w1200"
     ],
     "fiche_url": "https://crocpaysage.com/products/jujubier-geant-de-albatera"
@@ -1499,8 +1499,8 @@
     "feuillage": "Caduc",
     "origine": "Chine",
     "images": [
-      "https://cdn.shopify.com/s/files/1/0850/6703/9054/files/jujubes_fruits.jpg?v=1767556643",
-      "https://cdn.shopify.com/s/files/1/0850/6703/9054/files/jujubier.jpg?v=1767556643",
+      "assets/photos/shopify/jujubes_fruits.jpg",
+      "assets/photos/shopify/jujubier.jpg",
       "https://drive.google.com/thumbnail?id=1ELvtGIfTYWKk_z92ejBYTcSQJv7QWpm5&sz=w1200"
     ],
     "fiche_url": "https://crocpaysage.com/products/jujubier-suvage-non-greffe"
@@ -1632,7 +1632,7 @@
     "feuillage": "Caduc",
     "origine": "Chine",
     "images": [
-      "https://cdn.shopify.com/s/files/1/0850/6703/9054/files/KIWI_SOLO.jpg?v=1724516726",
+      "assets/photos/shopify/kiwi_solo.jpg",
       "https://drive.google.com/thumbnail?id=1SSoMpfa89EHPrygDW8LGUKydmTJdH3WT&sz=w1200",
       "https://drive.google.com/thumbnail?id=1crH-fuLjqHVnHIjN8q_00cG6b4-zrI4E&sz=w1200"
     ],
@@ -1661,9 +1661,9 @@
     "feuillage": "Vert clair puis jaune puis rouge en automne",
     "origine": "Amérique du Nord",
     "images": [
-      "https://cdn.shopify.com/s/files/1/0850/6703/9054/files/Sassafras-albidum.jpg?v=1725189189",
-      "https://cdn.shopify.com/s/files/1/0850/6703/9054/files/arbreiroquois.jpg?v=1724511543",
-      "https://cdn.shopify.com/s/files/1/0850/6703/9054/files/Sassafra_albidum.jpg?v=1724511605"
+      "assets/photos/shopify/sassafras-albidum.jpg",
+      "assets/photos/shopify/arbreiroquois.jpg",
+      "assets/photos/shopify/sassafra_albidum.jpg"
     ],
     "fiche_url": "https://crocpaysage.com/products/laurier-des-iroquois"
   },
@@ -1695,7 +1695,7 @@
     "feuillage": "Persistant",
     "origine": "Japon",
     "images": [
-      "https://cdn.shopify.com/s/files/1/0850/6703/9054/files/mandariniersatsumaiwasaki.jpg?v=1767551970"
+      "assets/photos/shopify/mandariniersatsumaiwasaki.jpg"
     ],
     "fiche_url": "https://crocpaysage.com/products/mandarinier-satsuma-iwasaki"
   },
@@ -1727,7 +1727,7 @@
     "feuillage": "Persistant",
     "origine": "Japon",
     "images": [
-      "https://cdn.shopify.com/s/files/1/0850/6703/9054/files/Satsuma_owari.jpg?v=1767554476"
+      "assets/photos/shopify/satsuma_owari.jpg"
     ],
     "fiche_url": "https://crocpaysage.com/products/mandarinier-satsuma-okitsu"
   },
@@ -1759,7 +1759,7 @@
     "feuillage": "Persistant",
     "origine": "Japon",
     "images": [
-      "https://cdn.shopify.com/s/files/1/0850/6703/9054/files/mandarinier_satsuma_okitsu.webp?v=1767552241"
+      "assets/photos/shopify/mandarinier_satsuma_okitsu.webp"
     ],
     "fiche_url": "https://crocpaysage.com/products/mandarinier-satsuma-owari"
   },
@@ -1796,7 +1796,7 @@
     "feuillage": "Caduc, doré à l'automne",
     "origine": "Japon",
     "images": [
-      "https://cdn.shopify.com/s/files/1/0850/6703/9054/files/miscanteus.jpg?v=1724513667",
+      "assets/photos/shopify/miscanteus.jpg",
       "https://drive.google.com/thumbnail?id=1V0mt82Lv_5F89Y4QXHBwAMxIqgn_NgPR&sz=w1200",
       "https://drive.google.com/thumbnail?id=1OpuO2yoPXUEHptQeoDO3d5p_PLZaWEgg&sz=w1200"
     ],
@@ -1861,7 +1861,7 @@
     "feuillage": "Caduc",
     "origine": "Chine",
     "images": [
-      "https://cdn.shopify.com/s/files/1/0850/6703/9054/files/20240726_185642.jpg?v=1724432420",
+      "assets/photos/shopify/20240726_185642.jpg",
       "https://drive.google.com/thumbnail?id=1liPt8ahPHnpasS_A86LplQ3JXLCwYBNk&sz=w1200",
       "https://drive.google.com/thumbnail?id=15ymxTqY_Z12jaij19cktYfd4zzmweYcG&sz=w1200"
     ],
@@ -1920,7 +1920,7 @@
     "feuillage": "Vert classique",
     "origine": "États-Unis (variété sélectionnée)",
     "images": [
-      "https://cdn.shopify.com/s/files/1/0850/6703/9054/files/murier-black-satin.jpg?v=1724432814",
+      "assets/photos/shopify/murier-black-satin.jpg",
       "https://drive.google.com/thumbnail?id=14LxowwfZkXCk1ofvgTYhVTokF5G-vzZX&sz=w1200",
       "https://drive.google.com/thumbnail?id=1e_4vweKELTOoyPW5Fe0WFCsWGnt_mLeh&sz=w1200"
     ],
@@ -1976,7 +1976,7 @@
     "feuillage": "Caduc (détruit par le gel)",
     "origine": "Pérou",
     "images": [
-      "https://cdn.shopify.com/s/files/1/0850/6703/9054/files/oca2.jpg?v=1723649409"
+      "assets/photos/shopify/oca2.jpg"
     ],
     "fiche_url": "https://crocpaysage.com/products/ocas-du-perou"
   },
@@ -2038,7 +2038,7 @@
     "feuillage": "Persistant",
     "origine": "Hybride cultivé (oignon x ciboule)",
     "images": [
-      "https://cdn.shopify.com/s/files/1/0850/6703/9054/files/20220814_143813.jpg?v=1723649847"
+      "assets/photos/shopify/20220814_143813.jpg"
     ],
     "fiche_url": "https://crocpaysage.com/products/oignons-rocamboles-oignons-d-egypte"
   },
@@ -2100,7 +2100,7 @@
     "feuillage": "Persistant",
     "origine": "Venezuela",
     "images": [
-      "https://cdn.shopify.com/s/files/1/0850/6703/9054/files/Orange_cara_cara.jpg?v=1767555734"
+      "assets/photos/shopify/orange_cara_cara.jpg"
     ],
     "fiche_url": "https://crocpaysage.com/products/orange-cara-cara"
   },
@@ -2127,8 +2127,8 @@
     "feuillage": "Caduc",
     "origine": "Asie de l'Est",
     "images": [
-      "https://cdn.shopify.com/s/files/1/0850/6703/9054/files/IMG_20240825_131308.jpg?v=1767558289",
-      "https://cdn.shopify.com/s/files/1/0850/6703/9054/files/paulownia_croc_paysage.jpg?v=1767558289",
+      "assets/photos/shopify/img_20240825_131308.jpg",
+      "assets/photos/shopify/paulownia_croc_paysage.jpg",
       "https://drive.google.com/thumbnail?id=1evW9Mm9Ibcn-ghUWuW9lRHEyhaQsnwfy&sz=w1200"
     ],
     "fiche_url": "https://crocpaysage.com/products/paulownia"
@@ -2186,8 +2186,8 @@
     "feuillage": "Persistant",
     "origine": "Méditerranée",
     "images": [
-      "https://cdn.shopify.com/s/files/1/0850/6703/9054/files/pin_parasol.jpg?v=1724507459",
-      "https://cdn.shopify.com/s/files/1/0850/6703/9054/files/pin_fruit.jpg?v=1724507481",
+      "assets/photos/shopify/pin_parasol.jpg",
+      "assets/photos/shopify/pin_fruit.jpg",
       "https://drive.google.com/thumbnail?id=1wOQMqte4xvkn2hjHXuU-eTzdhsSJwWIz&sz=w1200"
     ],
     "fiche_url": "https://crocpaysage.com/products/pin-parasol"
@@ -2215,7 +2215,7 @@
     "feuillage": "Caduc",
     "origine": "Amérique latine",
     "images": [
-      "https://cdn.shopify.com/s/files/1/0850/6703/9054/files/poiredeterre.jpg?v=1723650168"
+      "assets/photos/shopify/poiredeterre.jpg"
     ],
     "fiche_url": "https://crocpaysage.com/products/poire-de-terre-yacon"
   },
@@ -2242,7 +2242,7 @@
     "feuillage": "Caduc (disparaît l'été)",
     "origine": "Europe",
     "images": [
-      "https://cdn.shopify.com/s/files/1/0850/6703/9054/files/Poireauxperpetuels.jpg?v=1723651565"
+      "assets/photos/shopify/poireauxperpetuels.jpg"
     ],
     "fiche_url": "https://crocpaysage.com/products/poireaux-perpetuels"
   },
@@ -2389,7 +2389,7 @@
     "feuillage": "Épines sur les branches",
     "origine": "Asie",
     "images": [
-      "https://cdn.shopify.com/s/files/1/0850/6703/9054/files/IMG_20240830_180834.jpg?v=1725203937",
+      "assets/photos/shopify/img_20240830_180834.jpg",
       "https://drive.google.com/thumbnail?id=1rLyCcM6mBHyWBl58cUwQMNl_FbDnE1Cq&sz=w1200"
     ],
     "fiche_url": "https://crocpaysage.com/products/poivrier-du-sichuan"
@@ -2454,7 +2454,7 @@
     "feuillage": "Caduc",
     "origine": "Chine, Corée, Japon",
     "images": [
-      "https://cdn.shopify.com/s/files/1/0850/6703/9054/files/cerisier_du_nankin_croc_paysage_1.jpg?v=1767556122",
+      "assets/photos/shopify/cerisier_du_nankin_croc_paysage_1.jpg",
       "https://drive.google.com/thumbnail?id=1FDnD0ZU5jAFD-1FjJNsiBUl7BMZPh4Tt&sz=w1200",
       "https://drive.google.com/thumbnail?id=1RXhxtxBJJcLzSGM1V48aWjVXZsFAaui_&sz=w1200"
     ],
@@ -2513,7 +2513,7 @@
     "feuillage": "Caduc",
     "origine": "Chine",
     "images": [
-      "https://cdn.shopify.com/s/files/1/0850/6703/9054/files/Sophora_japonica.jpg?v=1724512702",
+      "assets/photos/shopify/sophora_japonica.jpg",
       "https://drive.google.com/thumbnail?id=1Ui2j8GYW2ryg_f81u5g34NCD6LU6PC0o&sz=w1200",
       "https://drive.google.com/thumbnail?id=1BV0NBgTCaJFzSuZVZifFXCvEAIoGQVcX&sz=w1200"
     ],
@@ -2542,8 +2542,8 @@
     "feuillage": "Rouge pourpre à l'automne",
     "origine": "Hybride sorbier des oiseleurs (Europe) x variété d'Amérique du Nord",
     "images": [
-      "https://cdn.shopify.com/s/files/1/0850/6703/9054/files/sorbier_b5902439-ae79-43a3-a89e-b4ada502e697.jpg?v=1767557985",
-      "https://cdn.shopify.com/s/files/1/0850/6703/9054/files/sorbusburkafeuillage.jpg?v=1767557985",
+      "assets/photos/shopify/sorbier_b5902439-ae79-43a3-a89e-b4ada502e697.jpg",
+      "assets/photos/shopify/sorbusburkafeuillage.jpg",
       "https://drive.google.com/thumbnail?id=1RFWzmwFT_-zxgH2-YVTZVo-48pnwH3GT&sz=w1200"
     ],
     "fiche_url": "https://crocpaysage.com/products/sorbier-burka"
