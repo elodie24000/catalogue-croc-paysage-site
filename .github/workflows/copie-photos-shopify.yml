@@ -1,0 +1,37 @@
+name: Copie des photos Shopify
+on:
+  push:
+    paths: [".github/workflows/copie-photos-shopify.yml"]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  copie:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Télécharger les photos hébergées chez Shopify
+        run: |
+          mkdir -p assets/photos/shopify
+          python3 - <<'PY'
+          import json, re, urllib.request, pathlib
+          d = json.load(open("data.json"))
+          urls = sorted({i for p in d for i in p["images"] if "cdn.shopify.com" in i})
+          ok = 0
+          for u in urls:
+              nom = re.sub(r"\?.*", "", u).rsplit("/", 1)[1].lower()
+              cible = pathlib.Path("assets/photos/shopify") / nom
+              req = urllib.request.Request(u, headers={"User-Agent": "Mozilla/5.0"})
+              cible.write_bytes(urllib.request.urlopen(req, timeout=60).read())
+              ok += 1
+              print(ok, nom, cible.stat().st_size)
+          print(f"{ok}/{len(urls)} photos copiées")
+          assert ok == len(urls)
+          PY
+      - name: Enregistrer les photos
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/photos/shopify
+          git commit -m "Photos : copie des photos hébergées chez Shopify"
+          git push origin HEAD:main
