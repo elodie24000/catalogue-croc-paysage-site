@@ -1105,3 +1105,113 @@ button.cal-day.selected { background: var(--olive); border-color: var(--olive); 
   .order-banner-inner { display: flex; justify-content: flex-start; gap: 18px; overflow-x: auto; scrollbar-width: none; }
   .ob-item { opacity: 1; animation: none; }
 }
+
+/* ---------- Rubriques : boutons sur ordinateur, vignettes photo qui glissent sur téléphone ---------- */
+.chip-photo { display: none; }
+.chip-label { display: inline-flex; align-items: center; gap: 7px; }
+
+@media (max-width: 640px) {
+  .chips-wrap { position: relative; margin: 0 -16px; min-width: 0; max-width: 100vw; }
+  .chips {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-rows: repeat(2, 76px);
+    grid-auto-columns: 112px;
+    min-width: 0;
+    gap: 8px;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+    scroll-padding: 0 16px;
+    padding: 2px 16px 4px;
+    scrollbar-width: none;
+  }
+  .chip {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    border: 0;
+    border-radius: 14px;
+    overflow: hidden;
+    background: color-mix(in srgb, var(--c) 30%, var(--cream));
+    color: #fff;
+    scroll-snap-align: start;
+    box-shadow: 0 1px 3px rgba(45, 43, 14, .18);
+  }
+  .chip-photo {
+    display: block;
+    position: absolute;
+    inset: 0;
+    background: center / cover no-repeat;
+    transition: transform .3s ease;
+  }
+  .chip-photo-vide { background: url('assets/logo-poires.png') center 30% / 60% auto no-repeat; opacity: .5; }
+  .chip-mosaic { display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr; gap: 1px; background: var(--cream); }
+  .chip-mosaic span { background: center / cover no-repeat; }
+  /* Voile dégradé de la couleur de la rubrique, pour lire le nom sur la photo */
+  .chip::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, color-mix(in srgb, var(--c) 70%, #000) 0%, color-mix(in srgb, var(--c) 35%, transparent) 55%, transparent 100%);
+  }
+  .chip-label {
+    position: absolute;
+    left: 8px;
+    right: 6px;
+    bottom: 6px;
+    z-index: 1;
+    display: block;
+    font-size: .8rem;
+    font-weight: 800;
+    line-height: 1.1;
+    text-align: left;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, .45);
+  }
+  .chip-label .dot { display: none; }
+  .chip .count {
+    display: block;
+    margin-top: 1px;
+    font-size: .68rem;
+    font-weight: 700;
+    color: rgba(255, 255, 255, .88);
+  }
+  .chip .count::after { content: " plantes"; }
+  .chip:hover { border: 0; }
+  /* Rubrique choisie : cadre doré et coche */
+  .chip[aria-pressed="true"] { background: var(--olive); box-shadow: 0 0 0 3px var(--gold), 0 3px 10px rgba(45, 43, 14, .3); }
+  .chip[aria-pressed="true"] .count { color: #fff; }
+  .chip[aria-pressed="true"]::before {
+    content: "✓";
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    z-index: 1;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: var(--gold);
+    color: var(--olive-dark);
+    font-size: .75rem;
+    font-weight: 900;
+    line-height: 20px;
+    text-align: center;
+  }
+  .chip.chip-promo, .chip.chip-promo:hover, .chip.chip-promo[aria-pressed="true"] { background: #c0392b; border: 0; }
+  /* Fondu sur le bord droit : on devine qu'il y a d'autres rubriques en faisant glisser */
+  .chips-wrap::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 4px;
+    width: 28px;
+    pointer-events: none;
+    background: linear-gradient(to right, transparent, var(--cream));
+    transition: opacity .2s ease;
+  }
+  .chips-wrap.at-end::after { opacity: 0; }
+}

@@ -39,6 +39,7 @@
     .then((data) => {
       plants = data;
       buildChips();
+      majFondu();
       render();
     })
     .catch(() => {
@@ -57,16 +58,44 @@
     ? `<s class="old-price">${price(v.ancien_prix)}</s> <span class="promo-price">${price(v.prix)}</span>`
     : price(v.prix);
 
+  // Photo d'illustration de chaque rubrique (vignettes sur téléphone) : une plante en stock, avec photo,
+  // différente pour chaque rubrique autant que possible
+  function photosDesRubriques(cats) {
+    const avecPhoto = plants.filter((p) => p.images && p.images.length)
+      .sort((a, b) => (b.stock_total > 0) - (a.stock_total > 0) || b.images.length - a.images.length);
+    const prises = new Set();
+    const res = {};
+    cats.forEach((c) => {
+      const choix = avecPhoto.filter((p) => categoriesDe(p).includes(c));
+      const p = choix.find((x) => !prises.has(x.nom)) || choix[0];
+      if (p) { prises.add(p.nom); res[c] = p.images[0]; }
+    });
+    // « Tout le catalogue » : petite mosaïque de quatre photos d'autres plantes
+    res[""] = avecPhoto.filter((p) => !prises.has(p.nom)).slice(0, 4).map((p) => p.images[0]);
+    return res;
+  }
+
   function buildChips() {
     const counts = {};
     // Une plante compte dans sa catégorie et dans ses rubriques (ex. fleur mellifère et aromatique)
     plants.forEach((p) => categoriesDe(p).forEach((c) => { counts[c] = (counts[c] || 0) + 1; }));
     // « Promo » juste après « Tout le catalogue », puis les rubriques par ordre alphabétique
     const cats = Object.keys(counts).sort((a, b) => (b === "Promo") - (a === "Promo") || a.localeCompare(b, "fr"));
+    const photos = photosDesRubriques(cats);
+    const url = (src) => `url('${String(src).replace(/'/g, "%27")}')`;
+    const vignette = (value) => {
+      if (value === "") {
+        return `<span class="chip-photo chip-mosaic" aria-hidden="true">${photos[""]
+          .map((src) => `<span style="background-image:${esc(url(src))}"></span>`).join("")}</span>`;
+      }
+      return photos[value]
+        ? `<span class="chip-photo" aria-hidden="true" style="background-image:${esc(url(photos[value]))}"></span>`
+        : '<span class="chip-photo chip-photo-vide" aria-hidden="true"></span>';
+    };
     const chip = (value, label, n) => `
       <button type="button" class="chip${value === "Promo" ? " chip-promo" : ""}" data-cat="${esc(value)}" aria-pressed="${value === currentCat}"
         style="--c:${value ? catColor(value) : "var(--olive)"}">
-        ${value === "Promo" ? "🏷️ " : value ? '<span class="dot"></span>' : ""}${esc(label)} <span class="count">${n}</span>
+        ${vignette(value)}<span class="chip-label">${value === "Promo" ? "🏷️ " : value ? '<span class="dot"></span>' : ""}${esc(label)} <span class="count">${n}</span></span>
       </button>`;
     els.chips.innerHTML = chip("", "Tout le catalogue", plants.length) +
       cats.map((c) => chip(c, c, counts[c])).join("");
@@ -79,6 +108,11 @@
     els.chips.querySelectorAll(".chip").forEach((b) => b.setAttribute("aria-pressed", b === btn));
     render();
   });
+  // Masque le fondu du bord droit une fois au bout des vignettes
+  const majFondu = () => els.chips.parentNode.classList.toggle("at-end",
+    els.chips.scrollLeft + els.chips.clientWidth >= els.chips.scrollWidth - 4);
+  els.chips.addEventListener("scroll", majFondu, { passive: true });
+  window.addEventListener("resize", majFondu);
   els.search.addEventListener("input", render);
   [els.rusticite, els.hauteur, els.tri, els.stock].forEach((el) => el.addEventListener("change", render));
 
