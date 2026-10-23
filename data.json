@@ -220,16 +220,16 @@
     "variants": [
       {
         "format": "1L",
-        "prix": 8.0,
+        "prix": 10.0,
         "stock": 0
       },
       {
         "format": "3L",
-        "prix": 13.0,
+        "prix": 15.0,
         "stock": 8
       }
     ],
-    "prix_min": 8.0,
+    "prix_min": 10.0,
     "stock_total": 8,
     "hauteur": "1.5 m",
     "rusticite": "-18°C",
