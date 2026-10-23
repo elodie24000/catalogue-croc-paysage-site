@@ -1450,7 +1450,7 @@
     "rubriques": [],
     "variants": [
       {
-        "format": "5L",
+        "format": "10L",
         "prix": 42.0,
         "stock": 2
       }
