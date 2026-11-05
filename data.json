@@ -2258,11 +2258,11 @@
       {
         "format": "5 L",
         "prix": 32.0,
-        "stock": 2
+        "stock": 1
       }
     ],
     "prix_min": 32.0,
-    "stock_total": 2,
+    "stock_total": 1,
     "hauteur": "1 à 2 m",
     "rusticite": "-10°C",
     "rusticite_val": -10,
