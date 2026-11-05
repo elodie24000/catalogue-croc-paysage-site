@@ -1614,12 +1614,12 @@
       {
         "format": "3L",
         "prix": 16.0,
-        "stock": 0
+        "stock": 1
       },
       {
         "format": "5L",
         "prix": 24.0,
-        "stock": 1
+        "stock": 0
       }
     ],
     "prix_min": 16.0,
