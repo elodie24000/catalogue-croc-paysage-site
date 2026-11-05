@@ -90,7 +90,7 @@ window.couches = (() => {
         <div class="cart-line-info">
           <strong>${esc(l.plante)}</strong>
           <span>${esc(l.format)} · ${euros(l.prix)}</span>
-          ${estRacinesNues(l.format) ? '<span class="cart-root-note">🌱 Retrait de fin novembre à fin janvier</span>' : ""}
+          ${estRacinesNues(l.format) ? '<span class="cart-root-note">🌱 Retrait du 1er novembre à fin janvier</span>' : ""}
         </div>
         <div class="qty" role="group" aria-label="Quantité">
           <button type="button" data-i="${i}" data-d="-1" aria-label="Retirer un">−</button>

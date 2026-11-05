@@ -197,7 +197,7 @@
         ${p.variants.length > 1
           ? `<select class="order-format" aria-label="Choisir le format de ${esc(p.nom)}">${options}</select>`
           : `<input type="hidden" class="order-format" value="0"><p class="order-single">${esc(noms[0])}</p>`}
-        <p class="order-note"${estRacinesNues(v.format) ? "" : " hidden"}>🌱 Retrait de fin novembre à fin janvier · commande possible dès maintenant</p>
+        <p class="order-note"${estRacinesNues(v.format) ? "" : " hidden"}>🌱 Retrait du 1er novembre à fin janvier · commande possible dès maintenant</p>
         <div class="order-row">
           <div class="qty" role="group" aria-label="Quantité">
             <button type="button" data-q="-1" aria-label="Moins">−</button>
