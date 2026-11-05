@@ -1452,11 +1452,11 @@
       {
         "format": "10L",
         "prix": 42.0,
-        "stock": 2
+        "stock": 0
       }
     ],
     "prix_min": 42.0,
-    "stock_total": 2,
+    "stock_total": 0,
     "hauteur": "6-8 m",
     "rusticite": "-15°C",
     "rusticite_val": -15,
